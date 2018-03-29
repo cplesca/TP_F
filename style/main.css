@@ -1,0 +1,720 @@
+/*MAIN StyleSheet*/
+/* style pour mobile  mobile first aproach */
+*{
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    margin:0;
+
+
+    /*background color graduat*/
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+89,383838+100,1b1b1b+100,383838+100 */
+    background: rgb(149,149,149); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(149,149,149,1) 0%, rgba(13,13,13,1) 46%, rgba(1,1,1,1) 50%, rgba(10,10,10,1) 53%, rgba(78,78,78,1) 89%, rgba(56,56,56,1) 100%, rgba(27,27,27,1) 100%, rgba(56,56,56,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 89%,rgba(56,56,56,1) 100%,rgba(27,27,27,1) 100%,rgba(56,56,56,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 89%,rgba(56,56,56,1) 100%,rgba(27,27,27,1) 100%,rgba(56,56,56,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#383838',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    /*end background color graduat*/
+}
+
+
+
+@-webkit-keyframes disparition{
+    0%{opacity:0;}
+    10%{opacity:0.1;}
+    15%{opacity:0.15;}
+    20%{opacity:0.20}
+    25%{opacity:0.25}
+    30%{opacity:0.30}
+}
+@keyframes disparition{
+    0%{opacity:0;}
+    10%{opacity:0.1;}
+    15%{opacity:0.15;}
+    20%{opacity:0.20}
+    25%{opacity:0.25}
+    30%{opacity:0.30}
+}
+#header img[alt*="logo"] {
+    -webkit-animation:disparition 3s infinite;
+    animation:disparition 3s infinite;
+    -webkit-animation-delay:4s;
+    animation-delay:4s;
+    -webkit-animation-name:disparition;
+    animation-name:disparition;
+    -webkit-animation-timing-function:ease-in-out;
+    animation-timing-function:ease-in-out;
+
+}
+
+header nav ul li a{
+    width:100%;
+}
+
+[class*="col-"] {
+    width:100%;
+    padding: 0 0;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+/*MENU HAMBURGER*/
+
+#menu-hamburger span{
+    width:50px;
+    height:3px;
+    background-color:#fff;
+    display:block;
+    /* pour fair apparaitre les span il faut mettre display:block malgre width 50 et height 3 */
+    margin:8px;
+    /* pour separer chaque span */
+
+}
+
+#menu-hamburger {
+    padding:10px 0;
+}
+
+
+.expand{
+    display:block;
+}
+
+header nav ul{
+
+    list-style:none;
+    padding:0;
+    color: white;
+    text-decoration:none;
+    margin:0;
+    text-align:center;
+    display:none
+}
+#secondary-nav nav ul{
+    list-style:none;
+    padding:0;
+    color: white;
+    text-decoration:none;
+    margin:0;
+
+}
+#secondary-nav nav ul li{
+    margin:auto;
+    display:block;
+    height:50px;
+    line-height:50px;
+    width:100%;
+
+
+}
+
+#secondary-nav nav ul li a{
+    width:100%;
+    border-radius:25px 25px 25px 25px;
+}
+#secondary-nav nav ul li a:hover{
+    background-color:darkorange;
+
+}
+p,h2{
+    color:white;
+}
+span{
+    color:darkorange;
+}
+
+.menu-mobile nav ul li{
+    border:2px solid white;
+    display:block;
+    height:50px;
+    line-height:50px;
+    margin:auto;
+
+}
+
+.menu-mobile nav ul li a{
+    color: white;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight:bold;
+    width:100%;
+    padding-left:5px;
+    display:block;
+}
+
+.menu-mobile nav ul li:hover{
+    background-color:darkorange;
+    cursor: pointer;
+}
+/*menu site map*/
+.menu-footer nav ul{
+    list-style:none;
+    padding:0;
+    color: white;
+    text-decoration:none;
+    margin:0;
+
+}
+
+.menu-footer nav ul li{
+    border-top:1px solid white;
+    display:block;
+    height:50px;
+    line-height:50px;
+}
+
+.menu-footer nav ul li a{
+    color: white;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight:bold;
+    width:100%;
+    padding-left:5px;
+    display:block;
+}
+
+.menu-footer nav ul li a:hover{
+    background-color:darkorange;
+}
+
+/* MAIN */
+main{
+    padding:1%;
+}
+
+/* FOOTER*/
+
+
+@-webkit-keyframes disparition{
+    0%{opacity:0;}
+    10%{opacity:0.1;}
+    15%{opacity:0.15;}
+    20%{opacity:0.20}
+    25%{opacity:0.25}
+    30%{opacity:0.30}
+}
+@keyframes disparition{
+    0%{opacity:0;}
+    10%{opacity:0.1;}
+    15%{opacity:0.15;}
+    20%{opacity:0.20}
+    25%{opacity:0.25}
+    30%{opacity:0.30}
+}
+#header img[alt*="logo"] {
+    -webkit-animation:disparition 3s infinite;
+    animation:disparition 3s infinite;
+    -webkit-animation-delay:4s;
+    animation-delay:4s;
+    -webkit-animation-name:disparition;
+    animation-name:disparition;
+    -webkit-animation-timing-function:ease-in-out;
+    animation-timing-function:ease-in-out;
+
+}
+
+header nav ul li a{
+    width:100%;
+}
+
+[class*="col-"] {
+    width:100%;
+    padding: 0 0;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+/*MENU HAMBURGER*/
+
+#menu-hamburger span{
+    width:50px;
+    height:3px;
+    background-color:#fff;
+    display:block;
+    /* pour fair apparaitre les span il faut mettre display:block malgre width 50 et height 3 */
+    margin:8px;
+    /* pour separer chaque span */
+
+}
+
+#menu-hamburger {
+    padding:10px 0;
+}
+
+
+.expand{
+    display:block;
+}
+
+header nav ul{
+
+    list-style:none;
+    padding:0;
+    color: white;
+    text-decoration:none;
+    margin:0;
+    text-align:center;
+    display:none
+}
+#secondary-nav nav ul{
+    list-style:none;
+    padding:0;
+    color: white;
+    text-decoration:none;
+    margin:0;
+
+}
+#secondary-nav nav ul li{
+    margin:auto;
+    display:block;
+    height:50px;
+    line-height:50px;
+    width:100%;
+
+
+}
+
+#secondary-nav nav ul li a{
+    width:100%;
+    border-radius:25px 25px 25px 25px;
+}
+#secondary-nav nav ul li a:hover{
+    background-color:darkorange;
+
+}
+
+.menu-mobile nav ul li{
+    border:2px solid white;
+    display:block;
+    height:50px;
+    line-height:50px;
+    margin:auto;
+
+}
+
+.menu-mobile nav ul li a{
+    color: white;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight:bold;
+    width:100%;
+    padding-left:5px;
+    display:block;
+}
+
+.menu-mobile nav ul li:hover{
+    background-color:darkorange;
+    cursor: pointer;
+}
+/*menu site map*/
+.menu-footer nav ul{
+    list-style:none;
+    padding:0;
+    color: white;
+    text-decoration:none;
+    margin:0;
+
+}
+
+.menu-footer nav ul li{
+    border-top:1px solid white;
+    display:block;
+    height:50px;
+    line-height:50px;
+}
+
+.menu-footer nav ul li a{
+    color: white;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight:bold;
+    width:100%;
+    padding-left:5px;
+    display:block;
+}
+
+.menu-footer nav ul li a:hover{
+    background-color:darkorange;
+}
+
+
+/* FOOTER*/
+footer{
+
+    padding:10px;
+    text-transform:uppercase;
+    text-align:center;
+    vertical-align:bottom;
+
+}
+
+
+/* end mobile */
+
+/* style pour tablette */
+@media only screen and (min-width:640px){
+
+
+
+    [class*="col-"] {
+        float: left;
+        padding: 0 15px;
+    }
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+
+    #menu-hamburger span{
+        display:none;
+    }
+
+
+
+    main h1{text-align:center;}
+
+    form{padding:2%;}
+    nav ul li{
+        border-top:0px;
+
+    }
+    header{
+        text-align:center;
+    }
+    #header ul{
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-pack:space-evenly;
+        -ms-flex-pack:space-evenly;
+        justify-content:space-evenly;
+
+    }
+
+    header img[alt="logo"]{
+        float:left;
+        width: 200px;
+
+    }
+    #search {
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        padding:0;
+        margin:0;
+    }
+    #search input {
+        height:40px;
+        margin:0;
+        padding-left:30px;
+        border-radius:25px 0 0 25px;
+        border: 2px solid #ddd;
+    }
+    #contact a:hover,#service a:hover,#home a:hover{
+        background-color:transparent;
+
+    }
+    #form{
+        clear: both;
+    }
+    #information,.datalist{
+        padding:0;
+        margin:0;
+    }
+    #social-menu ul{
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -ms-flex-pack:distribute;
+        justify-content:space-around;
+    }
+
+
+
+
+}
+
+
+
+/* end tablette */
+
+/* style pour desktop */
+@media only screen and (min-width:960px){
+
+
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    #menu-hamburger span{
+        display:none;
+    }
+    #contact a:hover,#service a:hover,#home a:hover{
+        background-color:transparent;
+
+    }
+
+    header nav ul li a:hover{
+        background-color:darkorange;
+    }
+
+    .menu-mobile{
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -ms-flex-pack:distribute;
+        justify-content:space-around;
+    }
+
+    #social-menu ul{
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -ms-flex-pack:distribute;
+        justify-content:space-around;
+    }
+
+    .company-info{
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+        flex-direction:column;
+        -webkit-box-pack:start;
+        -ms-flex-pack:start;
+        justify-content:flex-start;
+        font-size: smaller;
+    }
+    .appointment{
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+    }
+    .datalist{display:-webkit-box;display:-ms-flexbox;display:flex;
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+        flex-direction:column;
+    }
+    footer{
+        width:100%;
+    }
+
+    #information{
+        padding-top: 20%;
+        padding-bottom: 20%;
+        margin-top: -1%;
+    }
+    #information ul li{
+        margin:5%;
+    }
+
+}
+/* end desktops */
+
+
+
+
+
+
+/* end mobile */
+
+/* style pour tablette */
+@media only screen and (min-width:640px){
+
+
+
+    [class*="col-"] {
+        float: left;
+        padding: 0 15px;
+    }
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+
+    #menu-hamburger span{
+        display:none;
+    }
+
+
+
+    main h1{text-align:center;}
+
+    form{padding:2%;}
+    nav ul li{
+        border-top:0px;
+
+    }
+    header{
+        text-align:center;
+    }
+    #header ul{
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-pack:space-evenly;
+        -ms-flex-pack:space-evenly;
+        justify-content:space-evenly;
+
+    }
+
+    header img[alt="logo"]{
+        float:left;
+        width: 200px;
+
+    }
+
+
+    #contact a:hover,#service a:hover,#home a:hover{
+        background-color:transparent;
+
+    }
+    #form{
+        clear: both;
+    }
+    #information,.datalist{
+        padding:0;
+        margin:0;
+    }
+    #social-menu ul{
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -ms-flex-pack:distribute;
+        justify-content:space-around;
+    }
+
+
+
+
+}
+
+
+
+/* end tablette */
+
+/* style pour desktop */
+@media only screen and (min-width:960px){
+
+
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    #menu-hamburger span{
+        display:none;
+    }
+    #contact a:hover,#service a:hover,#home a:hover{
+        background-color:transparent;
+
+    }
+
+    header nav ul li a:hover{
+        background-color:darkorange;
+    }
+
+    .menu-mobile{
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -ms-flex-pack:distribute;
+        justify-content:space-around;
+    }
+
+    #social-menu ul{
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -ms-flex-pack:distribute;
+        justify-content:space-around;
+    }
+
+    .company-info{
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+        flex-direction:column;
+        -webkit-box-pack:start;
+        -ms-flex-pack:start;
+        justify-content:flex-start;
+        font-size: smaller;
+    }
+    .appointment{
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+    }
+    .datalist{display:-webkit-box;display:-ms-flexbox;display:flex;
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+        flex-direction:column;
+    }
+    footer{
+        width:100%;
+    }
+
+    #information{
+        padding-top: 20%;
+        padding-bottom: 20%;
+        margin-top: -1%;
+    }
+    #information ul li{
+        margin:5%;
+    }
+
+}
+/* end desktops */
+
+
