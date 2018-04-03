@@ -8,8 +8,16 @@
 
 body{
     font-family: 'Nunito Sans', sans-serif;
-    background-color: saddlebrown;
+    margin:0;
     background-repeat: no-repeat;
+    /*background color graduat*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feccb1+0,f17432+50,ea5507+51,fb955e+100;Red+Gloss+%232 */
+    background: rgb(254,204,177); /* Old browsers */
+    background: -moz-linear-gradient(45deg, rgba(254,204,177,1) 0%, rgba(241,116,50,1) 50%, rgba(234,85,7,1) 51%, rgba(251,149,94,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(254,204,177,1) 0%,rgba(241,116,50,1) 50%,rgba(234,85,7,1) 51%,rgba(251,149,94,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(254,204,177,1) 0%,rgba(241,116,50,1) 50%,rgba(234,85,7,1) 51%,rgba(251,149,94,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    /*end background color graduat*/
 }
 
 img{
@@ -343,6 +351,7 @@ footer{
     vertical-align:bottom;
 
 }
+
 
 
 /* end mobile */
