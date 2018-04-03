@@ -110,7 +110,7 @@ p,h2{
     color:white;
 }
 span{
-    color:darkorange;
+    color:white;
 }
 
 .menu-mobile nav ul li{
@@ -327,6 +327,10 @@ header nav ul{
 
 .menu-footer nav ul li a:hover{
     background-color:darkorange;
+}
+#social-menu ul {
+    list-style:none;
+
 }
 
 

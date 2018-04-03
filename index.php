@@ -1,5 +1,6 @@
 <?php
 
+// Essai
 ?>
 <html lang="fr">
 <head>
@@ -59,6 +60,11 @@
     <div style="padding-left:16px">
         <h2>Bien venu chez MelGood</h2>
         <p>menu responsif.</p>
+        <div id="map">
+            <!-- google map -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.30255662757!2d-73.6428947850151!3d45.54423883612114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc918e0c061b07f%3A0x647a6b6d7cb681a7!2sISI%2C+l&#39;Institut+sup%C3%A9rieur+d&#39;informatique!5e0!3m2!1sfr!2sca!4v1513800444286" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <h1>Contact Us</h1>
+        </div>
     </div>
 </main>
 <footer>
@@ -78,7 +84,7 @@
                 </div>
             </div>
             <!-- start RESEAUX SOCIAUX -->
-            <div class="reseau-soc col-m-6 col-4">
+            <div class="reseau-soc col-4">
                 <div id="social-menu">
                     <ul>
                         <li>
