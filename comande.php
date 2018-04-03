@@ -60,6 +60,7 @@
         <h2>Commander chez MelGood</h2>
         <p>menu responsif.</p>
     </div>
+
 </main>
 <footer>
     <footer>

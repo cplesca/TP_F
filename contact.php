@@ -59,6 +59,11 @@
     <div style="padding-left:16px">
         <h2>Nous joindre chez MelGood</h2>
         <p>menu responsif.</p>
+        <form action="/comande.php">
+            First name: <input type="text" name="FirstName" value="Mickey"><br>
+            Last name: <input type="text" name="LastName" value="Mouse"><br>
+            <input type="submit" value="Submit">
+        </form>
     </div>
     
 </main>

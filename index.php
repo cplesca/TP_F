@@ -18,7 +18,7 @@
 <body>
 <header>
     <div id="header">
-        <div class="col-m-2">
+        <div class="col-m-4">
             <img src="images/logo.png" alt="logo">
         </div>
         <div class="menu-mobile">
@@ -126,5 +126,5 @@
             });
     </script>
 </footer>
-</body>
+</>
 </html>
