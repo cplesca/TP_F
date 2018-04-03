@@ -4,21 +4,12 @@
     -webkit-box-sizing:border-box;
     box-sizing:border-box;
 }
+
+
 body{
     font-family: 'Nunito Sans', sans-serif;
-    margin:0;
-
-
-    /*background color graduat*/
-
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+89,383838+100,1b1b1b+100,383838+100 */
-    background: rgb(149,149,149); /* Old browsers */
-    background: -moz-linear-gradient(-45deg, rgba(149,149,149,1) 0%, rgba(13,13,13,1) 46%, rgba(1,1,1,1) 50%, rgba(10,10,10,1) 53%, rgba(78,78,78,1) 89%, rgba(56,56,56,1) 100%, rgba(27,27,27,1) 100%, rgba(56,56,56,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 89%,rgba(56,56,56,1) 100%,rgba(27,27,27,1) 100%,rgba(56,56,56,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 89%,rgba(56,56,56,1) 100%,rgba(27,27,27,1) 100%,rgba(56,56,56,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#383838',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-    /*end background color graduat*/
+    background-color: saddlebrown;
+    background-repeat: no-repeat;
 }
 
 
