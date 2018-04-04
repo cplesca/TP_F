@@ -55,6 +55,35 @@
         </div>
     </div>
 </header>
+</head>
+<body>
+<form oninput="total.value = (nights.valueAsNumber * 99) +
+     ((guests.valueAsNumber - 1) * 10)">
+
+    <label>Nom complet :</label>
+    <input type="text" id="full_name" name="full_name" placeholder="Jane Doe" required>
+
+    <label>Adresse e-mail :</label>
+    <input type="email" id="email_addr" name="email_addr" required>
+
+    <label>Votre adresse :</label>
+    <input type="adress" id="aadress" name="adress" required>
+
+    <label>code postal :</label>
+    <input type="text" id="cod_post" name="cod_post"  required>
+
+    <label>Nombre d'quantiter :</label>
+    <input type="number" id="quantiter" name="quantiter" value="1" min="1" max="4" required>
+
+
+    <br><br>
+
+    <label>Code de promotion :</label>
+    <input type="text" id="promo" name="promo" pattern="[A-Za-z0-9]{6}"
+           title="Le code de promotion contient six caractères alphanumériques.">
+
+    <input type="submit" value="Effectuer la réservation" />
+</form>
 <main>
     <div style="padding-left:16px">
         <h2>Commander chez MelGood</h2>
