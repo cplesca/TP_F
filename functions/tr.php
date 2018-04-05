@@ -1,6 +1,7 @@
 <?php
 $traduction = array(
     "Bien venu chez MelGood" => "Welcom to MelGood",
+    "Nos distributeurs" => "Our distributors",
 );
 var_dump($_GET);
 $lang = 'fr';
@@ -16,3 +17,6 @@ function tr($s){
         return $traduction[$s];
     }
 }
+?>
+
+
