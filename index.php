@@ -1,16 +1,15 @@
 <?php
 const PAGE_NAME = 'Accueil';
-<<<<<<< HEAD
+
 require_once 'functions/tr.php';
-=======
->>>>>>> b39e50724a7552c3ab58b55f5a56777a66e389d5
+
 require_once 'views/page_top.php';
 // Essai
 //$langue = array ("f"=>"Fr","e"=>"En");
 
 
 ?>
-<<<<<<< HEAD
+
     <main>
         <div style="padding-left:16px">
 
@@ -32,8 +31,7 @@ require_once 'views/page_top.php';
             </div>
         </div>
     </main>
-<?php require_once 'views/page_bottom.php';
-=======
+
 <main>
     <div style="padding-left:16px">
         <h2>Bien venu chez MelGood</h2>
@@ -46,4 +44,4 @@ require_once 'views/page_top.php';
     </div>
 </main>
 <?php require_once 'views/page_bottom.php';
->>>>>>> b39e50724a7552c3ab58b55f5a56777a66e389d5
+
