@@ -36,7 +36,7 @@
                     </li>
                     <li class="col-4 col-m-3">
                         <div id="service">
-                            <a href="comande.php">Commander</a>
+                            <a href="commande.php">Commander</a>
                         </div>
                     </li>
                     <li class="col-4 col-m-3">
@@ -100,7 +100,7 @@
                     <nav>
                         <ul>
                             <li><a href="index.php">Acceuil</a></li>
-                            <li><a href="comande.php">Commande</a></li>
+                            <li><a href="commande.php">Commande</a></li>
                             <li><a href="contact.php">Contacter nous</a></li>
                             <li><a href="apropos.php">Apropos</a></li>
                         </ul>

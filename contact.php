@@ -36,7 +36,7 @@
                     </li>
                     <li class="col-4 col-m-3">
                         <div id="service">
-                            <a href="comande.php">Commander</a>
+                            <a href="commande.php">Commander</a>
                         </div>
                     </li>
                     <li class="col-4 col-m-3">
@@ -59,7 +59,7 @@
     <div style="padding-left:16px">
         <h2>Nous joindre chez MelGood</h2>
         <p>menu responsif.</p>
-        <form action="/comande.php">
+        <form action="/commande.php">
             First name: <input type="text" name="FirstName" value="Mickey"><br>
             Last name: <input type="text" name="LastName" value="Mouse"><br>
             <input type="submit" value="Submit">
@@ -76,7 +76,7 @@
                     <nav>
                         <ul>
                             <li><a href="index.php">Acceuil</a></li>
-                            <li><a href="comande.php">Commande</a></li>
+                            <li><a href="commande.php">Commande</a></li>
                             <li><a href="contact.php">Contacter nous</a></li>
                             <li><a href="apropos.php">Apropos</a></li>
                         </ul>

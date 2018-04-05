@@ -39,9 +39,9 @@ require_once 'functions/tr.php';
                 <li class="col-4 col-m-3">
                     <div id="service">
 <<<<<<< HEAD
-                        <a href="comande.php"><?= tr("Commande") ?></a>
+                        <a href="commande.php"><?= tr("Commande") ?></a>
 =======
-                        <a href="comande.php">Commander</a>
+                        <a href="commande.php">Commander</a>
 >>>>>>> b39e50724a7552c3ab58b55f5a56777a66e389d5
                     </div>
                 </li>
