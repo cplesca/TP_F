@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Nunito Sans', sans-serif;
-    background-color: sandybrown;
+    background-color: saddlebrown;
     background-repeat: no-repeat;
 }
 
@@ -168,7 +168,9 @@ span{
 }
 
 /* MAIN */
-
+main{
+    padding:1%;
+}
 
 /* FOOTER*/
 
@@ -234,11 +236,6 @@ header nav ul li a{
 
 .expand{
     display:block;
-}
-#main{
-    border-color:brown;
-    border-width:0 25px 25px 0;
-    border-style:outset;
 }
 
 header nav ul{
@@ -346,7 +343,6 @@ footer{
     vertical-align:bottom;
 
 }
-
 
 
 /* end mobile */
