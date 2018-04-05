@@ -56,7 +56,7 @@
     </div>
 </header>
 </head>
-<body>
+</body>
 <form oninput="total.value = (nights.valueAsNumber * 99) +
      ((guests.valueAsNumber - 1) * 10)">
 
@@ -72,7 +72,7 @@
     <label>code postal :</label>
     <input type="text" id="cod_post" name="cod_post"  required>
 
-    <label>Nombre d'quantiter :</label>
+    <label>Quantiter :</label>
     <input type="number" id="quantiter" name="quantiter" value="1" min="1" max="4" required>
 
 
