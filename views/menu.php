@@ -4,9 +4,7 @@ require_once 'functions/tr.php';
 
 ?>
 <div class = "lang">
-    <a href = "index.php?lang=<?= $_GET['lang'] = 'fr' ?> ">Fr</a>
-    <a href = "index.php?lang=<?= $_GET['lang'] = 'en' ?> ">En</a>
-
+    <a href = "index.php?lang=<?= $lang==='fr'? 'en' : 'fr' ?> "><?= $lang==='fr'? 'en' : 'fr' ?></a>
 </div>
 <div id="header">
     <div class="col-m-2">
@@ -23,12 +21,12 @@ require_once 'functions/tr.php';
             <ul class="row-noshow">
                 <li class="col-4 col-m-3">
                     <div id="home">
-                        <a href="index.php">Acceuil</a>
+                        <a href="index.php"><?= tr("Acceuil") ?></a>
                     </div>
                 </li>
                 <li class="col-4 col-m-3">
                     <div id="service">
-                        <a href="comande.php">Commander</a>
+                        <a href="comande.php"><?= tr("Commande") ?></a>
                     </div>
                 </li>
                 <li class="col-4 col-m-3">
