@@ -6,6 +6,8 @@ $traduction = array(
     => "Order",
     "Contacter nous"
     =>"Contact",
+    "Nous contacter"
+    =>"Contact us",
     "Bien venu chez MelGood"
     => "Welcom to MelGood",
     "Nos distributeurs"
