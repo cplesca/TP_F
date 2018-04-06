@@ -10,6 +10,11 @@ $traduction = array(
     =>"Site Map",
     "Nous contacter"
     =>"Contact us",
+    "Adresse de livraison"
+    =>"Shiping Adress",
+    "Nom Complet"
+    =>"Full Name",
+
     "Bien venu chez MelGood"
     => "Welcom to MelGood",
     "Nos distributeurs"
