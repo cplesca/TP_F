@@ -8,15 +8,13 @@
 
 body{
     font-family: 'Nunito Sans', sans-serif;
-    background-color: sandybrown;
+    background-color: rgb(165,120,59);
     background-repeat: no-repeat;
 }
 
 img{
     max-width:50%;
 }
-
-
 
 
 header nav ul li a{
@@ -116,7 +114,7 @@ span{
 }
 
 .menu-mobile nav ul li:hover{
-    background-color:darkorange;
+    background-color:rgb(101,75,47);
     cursor: pointer;
 }
 /*menu site map*/
