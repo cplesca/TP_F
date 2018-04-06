@@ -4,20 +4,21 @@ require_once 'functions/tr.php';
 
 ?>
 <div class = "lang">
-    <a href = "index.php?lang=<?= $lang==='fr'? 'en' : 'fr' ?> "><?= $lang==='fr'? 'en' : 'fr' ?></a>
+    <a href = "index.php?lang=<?= $lang==='fr'? 'en' : 'fr' ?> "><?= $lang==='fr'? 'EN' : 'FR' ?></a>
 </div>
 <div id="header">
     <div class="col-m-2">
         <img src="images/logo.png" alt="logo">
+
     </div>
-    <div class="menu-mobile">
+    <!--<div class="menu-mobile">
         <div class="menu-btn" id="menu-hamburger">
             <span></span>
             <span></span>.
 
             <span></span>
-        </div>
-        <nav>
+        </div>-->
+    <!--<nav>
             <ul class="row-noshow">
                 <li class="col-4 col-m-3">
                     <div id="home">
@@ -29,19 +30,10 @@ require_once 'functions/tr.php';
                         <a href="comande.php"><?= tr("Commande") ?></a>
                     </div>
                 </li>
-                <li class="col-4 col-m-3">
-                    <div id="contact">
-                        <a href="contact.php">Contact</a>
-                    </div>
-                </li>
-                <li class="col-4 col-m-3">
-                    <div id="apropos">
-                        <a href="apropos.php">Apropos</a>
-                    </div>
-                </li>
+
             </ul>
         </nav>
 
-    </div>
+    </div>-->
 </div>
 
