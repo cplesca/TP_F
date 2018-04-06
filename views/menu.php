@@ -5,6 +5,7 @@ require_once 'functions/tr.php';
 ?>
 <div class = "lang">
     <a href = "index.php?lang=<?= $lang==='fr'? 'en' : 'fr' ?> "><?= $lang==='fr'? 'EN' : 'FR' ?></a>
+    <a href = "commande.php?lang=<?= $lang==='fr'? 'en' : 'fr' ?> "><?= $lang==='fr'? 'EN' : 'FR' ?></a>
 </div>
 <div id="header">
     <div class="col-m-2">

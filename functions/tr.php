@@ -14,6 +14,8 @@ $traduction = array(
     =>"Shiping Adress",
     "Nom Complet"
     =>"Full Name",
+    "Couriel"
+    =>"E_mail",
 
     "Bien venu chez MelGood"
     => "Welcom to MelGood",

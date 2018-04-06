@@ -15,9 +15,9 @@ require_once 'views/page_top.php';
     <form>
 
         <label><?= tr("Nom Complet") ?>:</label>
-        <input type="text" id="full_name" name="full_name" placeholder="Jane Doe" required>
+        <input type="text" id="full_name" name="full_name"  required>
 
-        <label>Adresse e-mail :</label>
+        <label><?= tr("Couriel") ?> :</label>
         <input type="email" id="email_addr" name="email_addr" required>
 
         <label>Votre adresse :</label>

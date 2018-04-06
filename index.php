@@ -22,10 +22,10 @@ require_once 'views/page_top.php';
      vos repas")?></p>
         </div>
        <div class="col-m-2 button">
-           <button type="button"><?= tr("Commande") ?></button>
+           <a href = "commande.php"><button type="button"><?= tr("Commande")            ?></button></a>
        </div>
        <div class="col-m-2 button">
-            <button type="button"><?= tr("Contacter nous") ?></button>
+           <a href = "contact.php"><button type="button"><?= tr("Contacter nous") ?></button></a>
        </div>
        <div id="map">
                 <!-- google map -->
