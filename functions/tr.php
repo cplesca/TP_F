@@ -16,6 +16,16 @@ $traduction = array(
     =>"Full Name",
     "Couriel"
     =>"E_mail",
+    "Adresse postale"
+    =>"address",
+    "code postal"
+    =>"ZIP code",
+    "Téléphone"
+    =>"Phone",
+    "Quantitée"
+    =>"Quantity",
+    "Passer la Commande"
+    =>"Order",
 
     "Bien venu chez MelGood"
     => "Welcom to MelGood",
