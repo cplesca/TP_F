@@ -3,13 +3,13 @@
 <footer>
     <div id="footer">
         <div class="sit-map col-m-6 col-4">
-            <h3>Site Map :</h3>
+            <h3><?= tr("Plan du Site") ?> :</h3>
             <div class="menu-footer">
                 <nav>
                     <ul>
-                        <li><a href="index.php">Acceuil</a></li>
-                        <li><a href="comande.php">Commande</a></li>
-                        <li><a href="contact.php">Contacter nous</a></li>
+                        <li><a href="index.php"><?= tr("Acceuil") ?></a></li>
+                        <li><a href="comande.php"><?= tr("Commande") ?></a></li>
+                        <li><a href="contact.php"><?= tr("Contacter nous") ?></a></li>
                     </ul>
                 </nav>
             </div>
