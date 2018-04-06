@@ -6,7 +6,7 @@ require_once 'functions/tr.php';
 require_once 'views/page_top.php';
 
 ?>
-
+    <a href = "commande.php?lang=<?= $lang==='fr'? 'en' : 'fr' ?> "><?= $lang==='fr'? 'EN' : 'FR' ?></a>
 
 <main>
     <div style="padding-left:16px">
