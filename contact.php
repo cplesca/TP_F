@@ -21,12 +21,16 @@ require_once 'views/page_top.php';
     </style>
 <main>
     <div style="padding-left:16px">
-        <h2>Nous joindre chez MelGood</h2>
-        <p>menu responsif.</p>
-        <form action="/commande.php">
-            First name: <input type="text" name="FirstName" value="Mickey"><br>
-            Last name: <input type="text" name="LastName" value="Mouse"><br>
-            <input type="submit" value="Submit">
+        <h2><?= tr("Contactez nous") ?></h2>
+        <form >
+            <label><?= tr("Nom Complet") ?>:</label>
+            <input type="text" name="Name" value="<?= tr("Nom&Prénom") ?>">
+            <label><?= tr("Couriel") ?> :</label>
+            <input type="email" id="email_addr" name="email_addr" value="<?= tr("votre@couriel.com") ?>">
+            <textarea name="textarea" rows="10" cols="50"><?= tr("Tappez votre message ici") ?></textarea>
+            <input type="submit" value="<?= tr("Soumettre") ?>">
+
+
         </form>
     </div>
 

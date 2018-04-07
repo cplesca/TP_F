@@ -46,7 +46,6 @@ require_once 'views/page_top.php';
                title="Le code de promotion contient six caractères alphanumériques.">
 
         <a href = "commande.php" onclick=""><button type="button"><?= tr("Commande")            ?></button></a>
-        <a href = "index.php" onclick=""><?= tr("Acceuil")?></a>
 
     </form>
 

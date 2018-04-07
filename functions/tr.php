@@ -28,6 +28,16 @@ $traduction = array(
     =>"Order",
     "Téléphone"
     =>"Phone",
+    "Contactez nous"
+    =>"Contact us",
+    "Nom&Prénom"
+    =>"Last name & First name",
+    "votre@couriel.com"
+    =>"your@email.com",
+    "Soumettre"
+    =>"Submit",
+    "Tappez votre message ici"
+    =>"Write your message here",
 
     "Bien venu chez MelGood"
     => "Welcom to MelGood",
