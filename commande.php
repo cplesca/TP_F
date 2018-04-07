@@ -6,7 +6,19 @@ require_once 'functions/tr.php';
 require_once 'views/page_top.php';
 
 ?>
-
+    <a class = "lang" href = "commande.php?lang=<?= $lang==='fr'? 'en' : 'fr' ?> "><?= $lang==='fr'? 'EN' : 'FR' ?></a>
+    <style>
+    .lang {
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    }
+    </style>
 <main>
     <div style="padding-left:16px">
         <h2><?= tr("Livraison") ?></h2>
