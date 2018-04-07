@@ -1,5 +1,6 @@
 <?php
 require_once (dirname(__FILE__) . '/../defines.php');
+require_once 'functions/tr.php';
 ?>
 
 <html lang="fr">
@@ -18,6 +19,10 @@ require_once (dirname(__FILE__) . '/../defines.php');
 </head>
 <body>
 <header>
+    <div class="col-m-2">
+        <img src="images/logo.png" alt="logo">
+
+    </div>
 
     <?php require_once 'menu.php'; ?>
 </header>

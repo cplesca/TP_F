@@ -21,8 +21,11 @@ require_once 'views/page_top.php';
     </style>
 </div>
     <main>
+
         <div class ="col-m-2">
-            <img src="images/caramel1.png" alt="logo">
+            <img src="images/caramel1.png" alt="logo"   >
+        </div>
+            <div class ="col-m-2">
             <h2><?= tr("Bien venu chez MelGood") ?></h2>
             <p><?=  tr("Chez MelGood, nous 
      offrons du caramel
