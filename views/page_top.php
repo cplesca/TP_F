@@ -18,6 +18,19 @@ require_once (dirname(__FILE__) . '/../defines.php');
 </head>
 <body>
 <header>
+    <a class ="lang" href = "index.php?lang=<?= $lang==='fr'? 'en' : 'fr' ?> "><?= $lang==='fr'? 'EN' : 'FR' ?></a>
+    <style>
+        .lang {
+            width: 115px;
+            height: 25px;
+            background: #4E9CAF;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
     <?php require_once 'menu.php'; ?>
 </header>
 

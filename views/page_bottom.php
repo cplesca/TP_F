@@ -9,7 +9,7 @@
                     <ul>
                         <li><a href="index.php"><?= tr("Acceuil") ?></a></li>
                         <li><a href="commande.php"><?= tr("Commande") ?></a></li>
-                        <li><a href="contact.php"><?= tr("Contacter nous") ?></a></li>
+                        <li><a href="contact.php"><?= tr("Contactez nous") ?></a></li>
                     </ul>
                 </nav>
             </div>
@@ -47,7 +47,7 @@
                     <span itemprop="addressLocality">Montréal</span>,
                     <span itemprop="addressRegion">Quebec</span>
                 </div>
-                Téléphone: <span itemprop="telephone">438.922.62.50</span><br>
+                <?= tr("Téléphone") ?>: <span itemprop="telephone">438.922.62.50</span><br>
                 <a href="mailto:melgood_caramel@hotmail.com" itemprop="email">
                     melgood_caramel@hotmail.com</a>
             </div>

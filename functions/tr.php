@@ -4,13 +4,13 @@ $traduction = array(
     => "Home",
     "Commande"
     => "Order",
-    "Contacter nous"
-    =>"Contact",
+    "Contactez nous"
+    =>"Contact us",
     "Plan du Site"
     =>"Site Map",
     "Nous contacter"
     =>"Contact us",
-    "Adresse de livraison"
+    "Livraison"
     =>"Shiping Adress",
     "Nom Complet"
     =>"Full Name",
@@ -26,6 +26,8 @@ $traduction = array(
     =>"Quantity",
     "Passer la Commande"
     =>"Order",
+    "Téléphone"
+    =>"Phone",
 
     "Bien venu chez MelGood"
     => "Welcom to MelGood",
