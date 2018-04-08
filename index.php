@@ -5,25 +5,32 @@ require_once 'functions/tr.php';
 
 require_once 'views/page_top.php';
 ?>
-<div>
-    <a class ="lang" href = "index.php?lang=<?= $lang==='fr'? 'en' : 'fr' ?> "><?= $lang==='fr'? 'EN' : 'FR' ?></a>
-    <style>
-        .lang {
-            float:right;
-            width: 115px;
-            background: white;
-            padding: 10px;
-            text-align: center;
-            border-radius: 5px;
-            color: saddlebrown;
-            font-weight: bold;
-        }
-    </style>
-</div>
-    <main>
 
-        <div class ="col-m-2">
-            <img src="images/caramel1.png" alt="logo"   >
+    <main>
+        <div class="lang">
+            <a href = "index.php?lang=<?= $lang==='fr'? 'en' : 'fr' ?> "><?= $lang==='fr'? 'EN' : 'FR' ?></a>
+            <style>
+                .lang {
+                    float: right;
+                    width: 15%;
+                    background: white;
+                    padding: 10px;
+                    text-align: center;
+                    border-radius: 100%;
+                    color: saddlebrown;
+                    font-weight: bold;
+                }
+            </style>
+        </div>
+
+        <div>
+            <style>
+             .img_principale{
+                 max-width: 100%;
+                 border-radius: 15px;
+             }
+            </style>
+            <img class="img_principale" src="images/caramel1.png" alt="logo"   >
         </div>
             <div class ="col-m-2">
             <h2><?= tr("Bien venu chez MelGood") ?></h2>
