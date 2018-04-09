@@ -30,11 +30,13 @@ header nav ul li a{
     clear: both;
     display: block;
 }
+html{
+    color: rgb(101,75,47);
+}
 /*MENU HAMBURGER*/
 #menu-hamburger span{
     width:50px;
     height:3px;
-    background-color:#fff;
     display:block;
     /* pour fair apparaitre les span il faut mettre display:block malgre width 50 et height 3 */
     margin:8px;
@@ -55,7 +57,6 @@ header nav ul{
 
     list-style:none;
     padding:0;
-    color: white;
     text-decoration:none;
     margin:0;
     text-align:center;
@@ -64,7 +65,6 @@ header nav ul{
 #secondary-nav nav ul{
     list-style:none;
     padding:0;
-    color: white;
     text-decoration:none;
     margin:0;
 
@@ -86,12 +86,6 @@ header nav ul{
 #secondary-nav nav ul li a:hover{
     background-color:rgb(101,75,47);
 
-}
-p,h2{
-    color:white;
-}
-span{
-    color:white;
 }
 
 .menu-mobile nav ul li{
@@ -254,7 +248,6 @@ footer{
     }
 
 
-
     main h1{text-align:center;}
 
     form{padding:2%;}
@@ -269,8 +262,6 @@ footer{
         display:-webkit-box;
         display:-ms-flexbox;
         display:flex;
-        -webkit-box-pack:space-evenly;
-        -ms-flex-pack:space-evenly;
         justify-content:space-evenly;
 
     }
@@ -312,7 +303,6 @@ footer{
         display:-webkit-box;
         display:-ms-flexbox;
         display:flex;
-        -ms-flex-pack:distribute;
         justify-content:space-around;
     }
 
@@ -358,7 +348,6 @@ footer{
         display:-webkit-box;
         display:-ms-flexbox;
         display:flex;
-        -ms-flex-pack:distribute;
         justify-content:space-around;
     }
 
@@ -366,7 +355,6 @@ footer{
         display:-webkit-box;
         display:-ms-flexbox;
         display:flex;
-        -ms-flex-pack:distribute;
         justify-content:space-around;
     }
 
@@ -459,8 +447,6 @@ footer{
         display:-webkit-box;
         display:-ms-flexbox;
         display:flex;
-        -webkit-box-pack:space-evenly;
-        -ms-flex-pack:space-evenly;
         justify-content:space-evenly;
 
     }
@@ -487,7 +473,6 @@ footer{
         display:-webkit-box;
         display:-ms-flexbox;
         display:flex;
-        -ms-flex-pack:distribute;
         justify-content:space-around;
     }
 
@@ -533,7 +518,6 @@ footer{
         display:-webkit-box;
         display:-ms-flexbox;
         display:flex;
-        -ms-flex-pack:distribute;
         justify-content:space-around;
     }
 
@@ -541,7 +525,6 @@ footer{
         display:-webkit-box;
         display:-ms-flexbox;
         display:flex;
-        -ms-flex-pack:distribute;
         justify-content:space-around;
     }
 
