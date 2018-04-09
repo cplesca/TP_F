@@ -33,6 +33,7 @@ header nav ul li a{
 html{
     color: rgb(101,75,47);
 }
+
 /*MENU HAMBURGER*/
 #menu-hamburger span{
     width:50px;
@@ -88,29 +89,6 @@ header nav ul{
 
 }
 
-.menu-mobile nav ul li{
-    border:2px solid white;
-    display:block;
-    height:50px;
-    line-height:50px;
-    margin:auto;
-
-}
-
-.menu-mobile nav ul li a{
-    color: white;
-    text-decoration:none;
-    text-transform:uppercase;
-    font-weight:bold;
-    width:100%;
-    padding-left:5px;
-    display:block;
-}
-
-.menu-mobile nav ul li:hover{
-    background-color:rgb(101,75,47);
-    cursor: pointer;
-}
 /*menu site map*/
 .menu-footer nav ul{
     list-style:none;
@@ -126,10 +104,11 @@ header nav ul{
     display:block;
     height:50px;
     line-height:50px;
+    color: rgb(101,75,47);
 }
 
 .menu-footer nav ul li a{
-    color: white;
+    color: rgb(101,75,47);
     text-decoration:none;
     text-transform:uppercase;
     font-weight:bold;
@@ -190,7 +169,7 @@ header nav ul li a{
 }
 
 .menu-footer nav ul li a{
-    color: white;
+    color: rgb(101,75,47);
     text-decoration:none;
     text-transform:uppercase;
     font-weight:bold;
@@ -200,7 +179,7 @@ header nav ul li a{
 }
 
 .menu-footer nav ul li a:hover{
-    background-color:rgb(101,75,47);
+    background-color:rgb(165,120,59);
 }
 #social-menu ul {
     list-style:none;
