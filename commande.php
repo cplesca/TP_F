@@ -6,21 +6,21 @@ require_once 'functions/tr.php';
 require_once 'views/page_top.php';
 
 ?>
-    <div class="lang">
-        <a href = "index.php?lang=<?= $lang==='fr'? 'en' : 'fr' ?> "><?= $lang==='fr'? 'EN' : 'FR' ?></a>
-        <style>
-            .lang {
-                float: right;
-                width: 15%;
-                background: white;
-                padding: 10px;
-                text-align: center;
-                border-radius: 100%;
-                color: saddlebrown;
-                font-weight: bold;
-            }
-        </style>
-    </div>
+<div>
+    <a class = "lang" href = "commande.php?lang=<?= $lang==='fr'? 'en' : 'fr' ?> "><?= $lang==='fr'? 'EN' : 'FR' ?></a>
+    <style>
+    .lang {
+    float: right;
+    width: 115px;
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: saddlebrown;
+    font-weight: bold;
+    }
+    </style>
+</div>
 <main>
     <div style="padding-left:16px">
         <h2><?= tr("Livraison") ?></h2>

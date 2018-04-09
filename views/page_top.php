@@ -20,18 +20,11 @@ require_once 'functions/tr.php';
 <body>
 <header>
     <div class="col-m-2">
-        <img id = "logo" src="images/logo.png" alt="logo">
+        <img src="images/logo.png" alt="logo">
 
     </div>
-    <style>
-        #logo {
 
-            display:block;
-            margin: 0 auto;
-            width: 100%;
-        }
-    </style>
-
+    <?php require_once 'menu.php'; ?>
 </header>
 
 
