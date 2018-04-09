@@ -152,7 +152,17 @@ span{
 main{
     padding:1%;
 }
-
+/*Bouton anglais français*/
+.lang {
+    float: right;
+    width: 115px;
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: saddlebrown;
+    font-weight: bold;
+}
 
 /* FOOTER*/
 
