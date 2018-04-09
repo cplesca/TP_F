@@ -84,7 +84,7 @@ header nav ul{
     border-radius:25px 25px 25px 25px;
 }
 #secondary-nav nav ul li a:hover{
-    background-color:darkorange;
+    background-color:rgb(101,75,47);
 
 }
 p,h2{
@@ -196,7 +196,7 @@ header nav ul li a{
 }
 
 .menu-footer nav ul li a:hover{
-    background-color:darkorange;
+    background-color:rgb(101,75,47);
 }
 #social-menu ul {
     list-style:none;
@@ -341,7 +341,7 @@ footer{
     }
 
     header nav ul li a:hover{
-        background-color:darkorange;
+        background-color:rgb(101,75,47);
     }
 
     .menu-mobile{
@@ -516,7 +516,7 @@ footer{
     }
 
     header nav ul li a:hover{
-        background-color:darkorange;
+        background-color:rgb(101,75,47);
     }
 
     .menu-mobile{

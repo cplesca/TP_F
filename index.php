@@ -4,28 +4,12 @@ const PAGE_NAME = 'Accueil';
 require_once 'functions/tr.php';
 
 require_once 'views/page_top.php';
-?>
-<div>
-    <a class ="lang" href = "index.php?lang=<?= $lang==='fr'? 'en' : 'fr' ?> "><?= $lang==='fr'? 'EN' : 'FR' ?></a>
-    <style>
-        .lang {
-            float:right;
-            width: 115px;
-            background: white;
-            padding: 10px;
-            text-align: center;
-            border-radius: 5px;
-            color: saddlebrown;
-            font-weight: bold;
-        }
-    </style>
-</div>
-    <main>
 
+?>
+
+    <main>
         <div class ="col-m-2">
-            <img src="images/caramel1.png" alt="logo"   >
-        </div>
-            <div class ="col-m-2">
+            <img src="images/caramel1.png" alt="logo">
             <h2><?= tr("Bien venu chez MelGood") ?></h2>
             <p><?=  tr("Chez MelGood, nous 
      offrons du caramel
@@ -38,10 +22,10 @@ require_once 'views/page_top.php';
      vos repas")?></p>
         </div>
        <div class="col-m-2 button">
-           <a href = "commande.php"><button type="button"><?= tr("Commande")            ?></button></a>
+           <button type="button"><?= tr("Commande") ?></button>
        </div>
        <div class="col-m-2 button">
-           <a href = "contact.php"><button type="button"><?= tr("Contactez nous") ?></button></a>
+            <button type="button"><?= tr("Contacter nous") ?></button>
        </div>
        <div id="map">
                 <!-- google map -->
