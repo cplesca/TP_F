@@ -1,5 +1,6 @@
 <?php
 require_once (dirname(__FILE__) . '/../defines.php');
+require_once 'functions/tr.php';
 ?>
 
 <html lang="fr">
@@ -18,7 +19,13 @@ require_once (dirname(__FILE__) . '/../defines.php');
 </head>
 <body>
 <header>
-    <?php require_once 'menu.php'; ?>
+    <div class="col-m-2">
+        <img src="images/Logo MelGood - F-Crème.png" alt="logo">
+
+    </div>
+
+    <?php
+    ?>
 </header>
 
 

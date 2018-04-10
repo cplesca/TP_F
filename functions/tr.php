@@ -4,16 +4,40 @@ $traduction = array(
     => "Home",
     "Commande"
     => "Order",
-    "Contacter nous"
-    =>"Contact",
+    "Contactez nous"
+    =>"Contact us",
     "Plan du Site"
     =>"Site Map",
     "Nous contacter"
     =>"Contact us",
-    "Adresse de livraison"
+    "Livraison"
     =>"Shiping Adress",
     "Nom Complet"
     =>"Full Name",
+    "Couriel"
+    =>"E_mail",
+    "Adresse postale"
+    =>"address",
+    "code postal"
+    =>"ZIP code",
+    "Téléphone"
+    =>"Phone",
+    "Quantitée"
+    =>"Quantity",
+    "Passer la Commande"
+    =>"Order",
+    "Téléphone"
+    =>"Phone",
+    "Contactez nous"
+    =>"Contact us",
+    "Nom&Prénom"
+    =>"Last name & First name",
+    "votre@couriel.com"
+    =>"your@email.com",
+    "Soumettre"
+    =>"Submit",
+    "Tappez votre message ici"
+    =>"Write your message here",
 
     "Bien venu chez MelGood"
     => "Welcom to MelGood",

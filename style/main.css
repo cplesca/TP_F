@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Nunito Sans', sans-serif;
-    background-color: rgb(165,120,59);
+    background-color: rgb(250,245,208);
     background-repeat: no-repeat;
 }
 
@@ -30,11 +30,14 @@ header nav ul li a{
     clear: both;
     display: block;
 }
+html{
+    color: rgb(101,75,47);
+}
+
 /*MENU HAMBURGER*/
 #menu-hamburger span{
     width:50px;
     height:3px;
-    background-color:#fff;
     display:block;
     /* pour fair apparaitre les span il faut mettre display:block malgre width 50 et height 3 */
     margin:8px;
@@ -55,7 +58,6 @@ header nav ul{
 
     list-style:none;
     padding:0;
-    color: white;
     text-decoration:none;
     margin:0;
     text-align:center;
@@ -64,7 +66,6 @@ header nav ul{
 #secondary-nav nav ul{
     list-style:none;
     padding:0;
-    color: white;
     text-decoration:none;
     margin:0;
 
@@ -84,39 +85,10 @@ header nav ul{
     border-radius:25px 25px 25px 25px;
 }
 #secondary-nav nav ul li a:hover{
-    background-color:darkorange;
-
-}
-p,h2{
-    color:white;
-}
-span{
-    color:white;
-}
-
-.menu-mobile nav ul li{
-    border:2px solid white;
-    display:block;
-    height:50px;
-    line-height:50px;
-    margin:auto;
-
-}
-
-.menu-mobile nav ul li a{
-    color: white;
-    text-decoration:none;
-    text-transform:uppercase;
-    font-weight:bold;
-    width:100%;
-    padding-left:5px;
-    display:block;
-}
-
-.menu-mobile nav ul li:hover{
     background-color:rgb(101,75,47);
-    cursor: pointer;
+
 }
+
 /*menu site map*/
 .menu-footer nav ul{
     list-style:none;
@@ -132,10 +104,11 @@ span{
     display:block;
     height:50px;
     line-height:50px;
+    color: rgb(101,75,47);
 }
 
 .menu-footer nav ul li a{
-    color: white;
+    color: rgb(101,75,47);
     text-decoration:none;
     text-transform:uppercase;
     font-weight:bold;
@@ -152,7 +125,17 @@ span{
 main{
     padding:1%;
 }
-
+/*Bouton anglais français*/
+.lang {
+    float: right;
+    width: 115px;
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: saddlebrown;
+    font-weight: bold;
+}
 
 /* FOOTER*/
 
@@ -186,7 +169,7 @@ header nav ul li a{
 }
 
 .menu-footer nav ul li a{
-    color: white;
+    color: rgb(101,75,47);
     text-decoration:none;
     text-transform:uppercase;
     font-weight:bold;
@@ -196,7 +179,7 @@ header nav ul li a{
 }
 
 .menu-footer nav ul li a:hover{
-    background-color:darkorange;
+    background-color:rgb(165,120,59);
 }
 #social-menu ul {
     list-style:none;
@@ -244,7 +227,6 @@ footer{
     }
 
 
-
     main h1{text-align:center;}
 
     form{padding:2%;}
@@ -259,8 +241,6 @@ footer{
         display:-webkit-box;
         display:-ms-flexbox;
         display:flex;
-        -webkit-box-pack:space-evenly;
-        -ms-flex-pack:space-evenly;
         justify-content:space-evenly;
 
     }
@@ -302,7 +282,6 @@ footer{
         display:-webkit-box;
         display:-ms-flexbox;
         display:flex;
-        -ms-flex-pack:distribute;
         justify-content:space-around;
     }
 
@@ -341,14 +320,13 @@ footer{
     }
 
     header nav ul li a:hover{
-        background-color:darkorange;
+        background-color:rgb(101,75,47);
     }
 
     .menu-mobile{
         display:-webkit-box;
         display:-ms-flexbox;
         display:flex;
-        -ms-flex-pack:distribute;
         justify-content:space-around;
     }
 
@@ -356,7 +334,6 @@ footer{
         display:-webkit-box;
         display:-ms-flexbox;
         display:flex;
-        -ms-flex-pack:distribute;
         justify-content:space-around;
     }
 
@@ -449,8 +426,6 @@ footer{
         display:-webkit-box;
         display:-ms-flexbox;
         display:flex;
-        -webkit-box-pack:space-evenly;
-        -ms-flex-pack:space-evenly;
         justify-content:space-evenly;
 
     }
@@ -477,7 +452,6 @@ footer{
         display:-webkit-box;
         display:-ms-flexbox;
         display:flex;
-        -ms-flex-pack:distribute;
         justify-content:space-around;
     }
 
@@ -516,14 +490,13 @@ footer{
     }
 
     header nav ul li a:hover{
-        background-color:darkorange;
+        background-color:rgb(101,75,47);
     }
 
     .menu-mobile{
         display:-webkit-box;
         display:-ms-flexbox;
         display:flex;
-        -ms-flex-pack:distribute;
         justify-content:space-around;
     }
 
@@ -531,7 +504,6 @@ footer{
         display:-webkit-box;
         display:-ms-flexbox;
         display:flex;
-        -ms-flex-pack:distribute;
         justify-content:space-around;
     }
 
