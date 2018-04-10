@@ -11,7 +11,7 @@ $traduction = array(
     "Nous contacter"
     =>"Contact us",
     "Livraison"
-    =>"Shiping Adress",
+    =>"Shiping",
     "Nom Complet"
     =>"Full Name",
     "Couriel"
