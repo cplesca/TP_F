@@ -38,6 +38,18 @@ $traduction = array(
     =>"Submit",
     "Tappez votre message ici"
     =>"Write your message here",
+    "S'il vous plaît remplir le formulaire pour vous inscrire sur notre site"
+    =>"Please fill the form to register to our website",
+    "Prénom"
+    =>"First name",
+    "Nom"
+    =>"Last name",
+    "Le prénom doit avoir au moins deux caractères."
+    =>"Firstname must have at least tow characters.",
+    "Le nom doit avoir au moins deux caractères."
+    =>"Lastname must have at least tow characters.",
+    "L'email n'est pas valide."
+    =>"The email isn't valid.",
 
     "Bien venu chez MelGood"
     => "Welcom to MelGood",
