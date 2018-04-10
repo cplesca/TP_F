@@ -48,7 +48,7 @@ if($en_post){
     </style>
 </div>
 <main>
-    <div style="padding-left:16px">
+    <div>
         <h2><?= tr("Livraison") ?></h2>
     </div>
     <form>
@@ -68,7 +68,7 @@ if($en_post){
                class="<?= $en_post && !$validation['email']['is_valid'] ? 'invalide' : '' ?>"
                value="<?= $en_post ? $validation['email']['value'] : '' ?>"
         />
-        <?php if($en_post && !$validation['email']['is_valid'] || ! check_mail($validation['email']['value'])){
+        <?php if($en_post && !$validation['email']['is_valid']){
             echo '<span>' . $validation['email']['err_msg'] . '</span>';
         }
         ?>

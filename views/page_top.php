@@ -24,7 +24,6 @@ require_once 'functions/tr.php';
 
     </div>
 
-    <?php require_once 'menu.php'; ?>
 </header>
 
 
