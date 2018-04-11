@@ -5,7 +5,6 @@
     box-sizing:border-box;
 }
 
-
 body{
     font-family: 'Nunito Sans', sans-serif;
     background-color: rgb(250,245,208);
@@ -16,7 +15,9 @@ img{
     max-width:50%;
 }
 
-
+.button{
+    display: inline;
+}
 header nav ul li a{
     width:100%;
 }
@@ -32,61 +33,6 @@ header nav ul li a{
 }
 html{
     color: rgb(101,75,47);
-}
-
-/*MENU HAMBURGER*/
-#menu-hamburger span{
-    width:50px;
-    height:3px;
-    display:block;
-    /* pour fair apparaitre les span il faut mettre display:block malgre width 50 et height 3 */
-    margin:8px;
-    /* pour separer chaque span */
-
-}
-
-#menu-hamburger {
-    padding:10px 0;
-}
-
-
-.expand{
-    display:block;
-}
-
-header nav ul{
-
-    list-style:none;
-    padding:0;
-    text-decoration:none;
-    margin:0;
-    text-align:center;
-    display:none
-}
-#secondary-nav nav ul{
-    list-style:none;
-    padding:0;
-    text-decoration:none;
-    margin:0;
-
-}
-#secondary-nav nav ul li{
-    margin:auto;
-    display:block;
-    height:50px;
-    line-height:50px;
-    width:100%;
-
-
-}
-
-#secondary-nav nav ul li a{
-    width:100%;
-    border-radius:25px 25px 25px 25px;
-}
-#secondary-nav nav ul li a:hover{
-    background-color:rgb(101,75,47);
-
 }
 
 /*menu site map*/
@@ -285,14 +231,10 @@ footer{
         justify-content:space-around;
     }
 
-
-
-
 }
 
-
-
 /* end tablette */
+
 
 /* style pour desktop */
 @media only screen and (min-width:960px){
@@ -377,173 +319,5 @@ footer{
 }
 /* end desktops */
 
-
-
-
-
-
-/* end mobile */
-
-/* style pour tablette */
-@media only screen and (min-width:640px){
-
-
-
-    [class*="col-"] {
-        padding: 0 15px;
-    }
-    .col-m-1 {width: 8.33%;}
-    .col-m-2 {width: 16.66%;}
-    .col-m-3 {width: 25%;}
-    .col-m-4 {width: 33.33%;}
-    .col-m-5 {width: 41.66%;}
-    .col-m-6 {width: 50%;}
-    .col-m-7 {width: 58.33%;}
-    .col-m-8 {width: 66.66%;}
-    .col-m-9 {width: 75%;}
-    .col-m-10 {width: 83.33%;}
-    .col-m-11 {width: 91.66%;}
-    .col-m-12 {width: 100%;}
-
-    #menu-hamburger span{
-        display:none;
-    }
-
-
-
-    main h1{text-align:center;}
-
-    form{padding:2%;}
-    nav ul li{
-        border-top:0px;
-
-    }
-    header{
-        text-align:center;
-    }
-    #header ul{
-        display:-webkit-box;
-        display:-ms-flexbox;
-        display:flex;
-        justify-content:space-evenly;
-
-    }
-
-    header img[alt="logo"]{
-        float:left;
-        width: 200px;
-
-    }
-
-
-    #contact a:hover,#service a:hover,#home a:hover{
-        background-color:transparent;
-
-    }
-    #form{
-        clear: both;
-    }
-    #information,.datalist{
-        padding:0;
-        margin:0;
-    }
-    #social-menu ul{
-        display:-webkit-box;
-        display:-ms-flexbox;
-        display:flex;
-        justify-content:space-around;
-    }
-
-
-
-
-}
-
-
-
-/* end tablette */
-
-/* style pour desktop */
-@media only screen and (min-width:960px){
-
-
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-
-    #menu-hamburger span{
-        display:none;
-    }
-    #contact a:hover,#service a:hover,#home a:hover{
-        background-color:transparent;
-
-    }
-
-    header nav ul li a:hover{
-        background-color:rgb(101,75,47);
-    }
-
-    .menu-mobile{
-        display:-webkit-box;
-        display:-ms-flexbox;
-        display:flex;
-        justify-content:space-around;
-    }
-
-    #social-menu ul{
-        display:-webkit-box;
-        display:-ms-flexbox;
-        display:flex;
-        justify-content:space-around;
-    }
-
-    .company-info{
-        display:-webkit-box;
-        display:-ms-flexbox;
-        display:flex;
-        -webkit-box-orient:vertical;
-        -webkit-box-direction:normal;
-        -ms-flex-direction:column;
-        flex-direction:column;
-        -webkit-box-pack:start;
-        -ms-flex-pack:start;
-        justify-content:flex-start;
-        font-size: smaller;
-    }
-    .appointment{
-        display:-webkit-box;
-        display:-ms-flexbox;
-        display:flex;
-    }
-    .datalist{display:-webkit-box;display:-ms-flexbox;display:flex;
-        -webkit-box-orient:vertical;
-        -webkit-box-direction:normal;
-        -ms-flex-direction:column;
-        flex-direction:column;
-    }
-    footer{
-        width:100%;
-    }
-
-    #information{
-        padding-top: 20%;
-        padding-bottom: 20%;
-        margin-top: -1%;
-    }
-    #information ul li{
-        margin:5%;
-    }
-
-}
-/* end desktops */
 
 

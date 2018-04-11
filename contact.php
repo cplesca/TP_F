@@ -42,18 +42,6 @@ if($en_post){
 
 <div>
     <a class = "lang" href = "contact.php?lang=<?= $lang==='fr'? 'en' : 'fr' ?> "><?= $lang==='fr'? 'EN' : 'FR' ?></a>
-    <style>
-        .lang {
-            float: right;
-            width: 115px;
-            background: white;
-            padding: 10px;
-            text-align: center;
-            border-radius: 5px;
-            color: saddlebrown;
-            font-weight: bold;
-        }
-    </style>
 </div>
 <main>
     <div>
