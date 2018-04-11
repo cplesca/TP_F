@@ -26,12 +26,12 @@ require_once 'views/page_top.php';
         </div>
         <div class="col-m-2 button">
             <a href="commande.php">
-                <button type="button"><?= tr("Commande") ?></button>
+                <button class="button" type="button"><?= tr("Commande") ?></button>
             </a>
         </div>
         <div class="col-m-2 button">
             <a href="contact.php">
-                <button type="button"><?= tr("Contactez nous") ?></button>
+                <button class="button" type="button"><?= tr("Contactez nous") ?></button>
             </a>
         </div>
     </main>
