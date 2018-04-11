@@ -53,7 +53,7 @@ if ($en_post) {
 <main>
     <div>
 
-        <form action="insertion.php" method="post">
+        <form action="db/insertion.php" method="post">
             <h2><?= tr("Commende") ?></h2>
 
             <fieldset>

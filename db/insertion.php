@@ -1,9 +1,5 @@
 <?php
 const PAGE_NAME = 'Accueil';
-
-require_once 'functions/tr.php';
-
-require_once 'views/page_top.php';
 //ouverture dùne connexion a la bdd agenda
 $objetPDO= new PDO('mysql:host=localhost;dbname=agenda','root','');
 
