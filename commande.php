@@ -44,29 +44,22 @@ if ($en_post) {
     $validation['adress']['is_valid'] = strlen($validation['adress']['value']) >= 10;
     //email
 }
-
 ?>
+<body>
+
+<div>
+    <a class = "lang" href = "contact.php?lang=<?= $lang==='fr'? 'en' : 'fr' ?> "><?= $lang==='fr'? 'EN' : 'FR' ?></a>
+</div>
+<main>
     <div>
-        <a class="lang"
-           href="commande.php?lang=<?= $lang === 'fr' ? 'en' : 'fr' ?> "><?= $lang === 'fr' ? 'EN' : 'FR' ?></a>
-        <style>
-            .lang {
-                float: right;
-                width: 115px;
-                background: white;
-                padding: 10px;
-                text-align: center;
-                border-radius: 5px;
-                color: saddlebrown;
-                font-weight: bold;
-            }
-        </style>
-    </div>
-    <main>
-        <div>
-            <h2><?= tr("Livraison") ?></h2>
-        </div>
+
         <form action="insertion.php" method="post">
+            <h2><?= tr("Commende") ?></h2>
+
+            <fieldset>
+                <legend><?= tr( "S'il vous plaît remplir le formulaire pour vous inscrire sur notre site") ?></legend>
+                <div>
+
             <label><?= tr("Quantitée") ?> :</label>
             <input type="number" id="quantiter" name="quantiter" value="1" min="1" max="100" required>
 
@@ -80,10 +73,10 @@ if ($en_post) {
 
             <label><?= tr("Couriel") ?> :</label>
             <input type="email" id="email_addr" name="email_addr" required
-                   class="<?= $en_post && !$validation['email']['is_valid'] ? 'invalide' : '' ?>"
-                   value="<?= $en_post ? $validation['email']['value'] : '' ?>"/>
-            <?php if ($en_post && !$validation['email']['is_valid']) {
-                echo '<span>' . $validation['email']['err_msg'] . '</span>';
+                   class="<?= $en_post && !$validation['email_addr']['is_valid'] ? 'invalide' : '' ?>"
+                   value="<?= $en_post ? $validation['email_addr']['value'] : '' ?>"/>
+            <?php if ($en_post && !$validation['email_addr']['is_valid']) {
+                echo '<span>' . $validation['email_addr']['err_msg'] . '</span>';
             } ?>
 
             <label><?= tr("Téléphone") ?> :</label>
@@ -107,11 +100,9 @@ if ($en_post) {
             <label>Code de promotion :</label>
             <input type="text" id="promo" name="promo" pattern="[A-Za-z0-9]{6}"
                    title="Le code de promotion contient six caractères alphanumériques."/>
-
-            <a href="commande.php" onclick="">
-                <button type="button"><?= tr("Commande") ?></button>
-            </a>
-
+                </div>
+            </fieldset>
+            <input type="submit" value=<?= tr("commender") ?>>
         </form>
 
     </main>
