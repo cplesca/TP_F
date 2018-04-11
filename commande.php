@@ -1,8 +1,4 @@
 <?php
-const PAGE_NAME = 'Accueil';
-
-require_once 'functions/tr.php';
-
 require_once 'views/page_top.php';
 
 $en_post = $_SERVER['REQUEST_METHOD'] === 'POST'; //Indique si on est en réception
