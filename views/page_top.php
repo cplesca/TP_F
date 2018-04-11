@@ -20,7 +20,7 @@ require_once 'functions/tr.php';
 <body>
 <header>
     <div class="col-m-2">
-        <img src="images/logo.png" alt="logo">
+        <img src="images/Logo MelGood - F-Crème.png" alt="logo">
 
     </div>
 
