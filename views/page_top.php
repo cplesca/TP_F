@@ -19,7 +19,7 @@ require_once 'functions/tr.php';
 </head>
 <body>
 <header>
-    <div>
+    <div class="col-12">
         <a href="index.php"><img src="images/Logo MelGood - F-Crème.png" alt="logo"></a>
     </div>
 

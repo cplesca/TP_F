@@ -9,10 +9,10 @@ require_once 'views/page_top.php';
         <div>
             <a class="lang" href="index.php?lang=<?= $lang === 'fr' ? 'en' : 'fr' ?> "><?= $lang === 'fr' ? 'EN' : 'FR' ?></a>
         </div>
-        <div class="col-m-2">
+        <div class="col-6 col-m-12">
             <img src="images/caramel1.png" alt="logo">
         </div>
-        <div class="col-m-2">
+        <div class="col-6 col-m-12">
             <h2><?= tr("Bien venu chez MelGood") ?></h2>
             <p><?= tr("Chez MelGood, nous 
      offrons du caramel

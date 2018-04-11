@@ -11,8 +11,9 @@ body{
     background-repeat: no-repeat;
 }
 
-img{
-    max-width:50%;
+img[alt="logo"]{
+    margin: auto;
+    max-width:100%;
 }
 
 .button{
@@ -192,7 +193,6 @@ footer{
     }
 
     header img[alt="logo"]{
-        float:left;
         width: 200px;
 
     }
