@@ -6,7 +6,9 @@ require_once 'functions/tr.php';
 require_once 'views/page_top.php';
 ?>
     <main>
-
+        <div>
+            <a class="lang" href="index.php?lang=<?= $lang === 'fr' ? 'en' : 'fr' ?> "><?= $lang === 'fr' ? 'EN' : 'FR' ?></a>
+        </div>
         <div class="col-m-2">
             <img src="images/caramel1.png" alt="logo">
         </div>
@@ -31,9 +33,6 @@ require_once 'views/page_top.php';
             <a href="contact.php">
                 <button type="button"><?= tr("Contactez nous") ?></button>
             </a>
-        </div>
-        <div>
-            <a class="lang" href="index.php?lang=<?= $lang === 'fr' ? 'en' : 'fr' ?> "><?= $lang === 'fr' ? 'EN' : 'FR' ?></a>
         </div>
     </main>
 
