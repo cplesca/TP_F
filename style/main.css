@@ -17,6 +17,7 @@ img[alt="logo"]{
 }
 
 .button {
+    border-radius: 5%;
     background-color:rgb(101,75,47);
     border: none;
     color: white;
@@ -207,6 +208,9 @@ footer{
     header img[alt="logo"]{
         width: 200px;
 
+    }
+    main img{
+        border-radius: 5%;
     }
 
 
