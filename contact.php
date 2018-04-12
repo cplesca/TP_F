@@ -55,7 +55,6 @@ if ($en_post) {
 </div>
 <main>
     <div>
-
         <form method="post" id="register">
             <h2><?= tr("Contactez nous") ?></h2>
 
@@ -101,7 +100,7 @@ if ($en_post) {
                               value="<?= $en_post ? $validation['message']['value'] : '' ?>">
                     </textarea>
                     <?php if ($en_post && !$validation['message']['is_valid']) {
-                        echo '<span>'.$validation['message']['err_msg'].'</span>';
+                        echo '<span>' . $validation['message']['err_msg'] . '</span>';
                     }
                     ?>
                 </div>

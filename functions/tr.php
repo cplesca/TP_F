@@ -56,9 +56,14 @@ $traduction = array(
     =>"It all started on a February night, when Justin asked her mother about the caramel recipe she made at Christmas every year, and then started making it herself and selling it to her family, who did not could not resist the tantalizing flavor that made their taste buds dance, and after seeing the potential of the future company, Tristan (former classmate of Justin), with his instinct of investor shark, came The company has constantly evolved in order to offer you its delicious caramel that gives hugs to the stomach of each person who crosses it.",
     "Bienvenue chez MelGood"
     =>"Welcom to MelGood",
-
+    "Envoyer nous vos commentaire ou question"
+    => "Send us your comments or questions",
     "Bien venu chez MelGood"
     => "Welcom to MelGood",
+    "Message"
+    => "Message",
+    "message"
+    => "message",
     "Nos distributeurs"
     => "Our distributors",
     "Chez MelGood, nous 
