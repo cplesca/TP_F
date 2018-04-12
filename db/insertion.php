@@ -1,33 +1,34 @@
 <?php
-const PAGE_NAME = 'Accueil';
 //ouverture dùne connexion a la bdd agenda
-$objetPDO= new PDO('mysql:host=localhost;dbname=agenda','root','');
+$objetPdo= new PDO('mysql:host=localhost;dbname=agenda','root','');
 
 //preparation de la requete d'insertion (SQL)
-$pdoStart = $objetPDO->prepare('INSERT INTO commende VALUE(NULL, :quantity, :full_name, :mail, :phone, :address, :zipp_code)');
+$pdoStat = $objetPdo->prepare('INSERT INTO commende VALUE (NULL, :quantity, :full_name, :mail, :phone, :address, :zipp_code)');
 
 //on lie chaque marqueur a une valeur
-$pdoStart->bindValue('quantity',$_POST['quantity'],PDO::PARAM_STR);
-$pdoStart->bindValue('full_name',$_POST['full_name'],PDO::PARAM_STR);
-$pdoStart->bindValue('mail',$_POST['mail'],PDO::PARAM_STR);
-$pdoStart->bindValue('phone',$_POST['phone'],PDO::PARAM_STR);
-$pdoStart->bindValue('address',$_POST['address'],PDO::PARAM_STR);
-$pdoStart->bindValue('zipp_code',$_POST['zipp_code'],PDO::PARAM_STR);
+$pdoStat->bindValue(':quantity',$_POST['quantiter'],PDO::PARAM_STR);
+$pdoStat->bindValue(':full_name',$_POST['nom_complet'],PDO::PARAM_STR);
+$pdoStat->bindValue(':mail',$_POST['email_addr'],PDO::PARAM_STR);
+$pdoStat->bindValue(':phone',$_POST['tel'],PDO::PARAM_STR);
+$pdoStat->bindValue(':address',$_POST['adress'],PDO::PARAM_STR);
+$pdoStat->bindValue(':zipp_code',$_POST['cod_post'],PDO::PARAM_STR);
 
 //executionde la requete prepare
-$insertIsOk = $pdoStart->execute();
+$insertIsOk = $pdoStat->execute();
 
 if ($insertIsOk){
     $message = 'Le commend a ete ajouter dans la bdd';
 } else {
     $message = 'Echec de l\insertion';
 }
+var_dump($_POST);
 ?>
 
     <main>
         <div>
             <h1>Insertion de commende</h1>
+            <p><?php echo $message ?></p>
         </div>
     </main>
 
-<?php require_once 'views/page_bottom.php';
+
