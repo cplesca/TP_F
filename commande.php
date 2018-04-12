@@ -101,7 +101,6 @@ var_dump($_POST);
             </fieldset>
             <input type="submit" value=<?= tr("Soumettre") ?>>
         </form>
-
     </main>
 
 <?php require_once 'views/page_bottom.php';
