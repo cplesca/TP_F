@@ -1,6 +1,7 @@
 <?php
 require_once 'views/page_top.php';
 
+
 $en_post = $_SERVER['REQUEST_METHOD'] === 'POST'; //Indique si on est en réception
 $validation = array(
     'nom_complet' => array(
@@ -49,12 +50,12 @@ var_dump($_POST);
 <body>
 
 <div>
-    <a class = "lang" href = "contact.php?lang=<?= $lang==='fr'? 'en' : 'fr' ?> "><?= $lang==='fr'? 'EN' : 'FR' ?></a>
+    <a class = "lang" href = "commande.php?lang=<?= $lang==='fr'? 'en' : 'fr' ?> "><?= $lang==='fr'? 'EN' : 'FR' ?></a>
 </div>
 <main>
     <div>
         <form action="db/insertion.php" method="post">
-            <h2><?= tr("Commende") ?></h2>
+            <h2><?= tr("Commande") ?></h2>
             <fieldset>
                 <legend><?= tr( "S'il vous plaît remplir le formulaire pour vous inscrire sur notre site") ?></legend>
                 <div>
@@ -96,10 +97,9 @@ var_dump($_POST);
 
             <label><?= tr("code postal") ?> :</label>
             <input type="text" id="cod_post" name="cod_post" required>
-            <label>Code de promotion :</label>
             </div>
             </fieldset>
-            <input type="submit" value=<?= tr("commender") ?>>
+            <input type="submit" value=<?= tr("Soumettre") ?>>
         </form>
 
     </main>
