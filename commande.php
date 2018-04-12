@@ -7,7 +7,7 @@ $validation = array(
     'nom_complet' => array(
         'is_valid' => false,
         'value' => null,
-        'err_msg' => tr("Le  doit nom complet n'est pas valide."),
+        'err_msg' => tr("Le nom complet n'est pas valide."),
     ),
     'email_addr' => array(
         'is_valid' => false,

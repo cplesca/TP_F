@@ -60,21 +60,19 @@ $traduction = array(
     =>"message",
     "Envoyer nous vos commentaire ou question"
     =>"Send us your coments or question",
+    "Le nom complet n'est pas valide."
+    =>"The full name is not valid.",
+    "L'adress n'est pas valide."
+    =>"The address is invalid.",
+    "Le message n'est pas valide."
+    =>"the message is not valid",
 
     "Bien venu chez MelGood"
     => "Welcom to MelGood",
     "Nos distributeurs"
     => "Our distributors",
-    "Chez MelGood, nous 
-     offrons du caramel
-     à tartiner de qualité
-     et fait à la main à 
-     Montréal. Notre mission 
-     est de redéfinir ce qu'est
-     un bon caramel et d’ajouter
-     de la saveur à chacun de
-     vos repas"=>
-     "At MelGood, we
+    "Chez MelGood, nous offrons du caramel à tartiner de qualité et fait à la main à Montréal. Notre mission est de redéfinir ce qu'est un bon caramel et d’ajouter de la saveur à chacun de vos repas"
+    =>"At MelGood, we
      offer caramel
      quality spreads
      and handmade to
@@ -82,7 +80,7 @@ $traduction = array(
      is to redefine what is
      a good caramel and add
      of flavor to each of
-     your meals"
+     your meals",
 
 );
 $lang = 'fr';

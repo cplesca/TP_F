@@ -14,15 +14,7 @@ require_once 'views/page_top.php';
         </div>
         <div class="col-6 col-m-12">
             <h2><?= tr("Bienvenue chez MelGood") ?></h2>
-            <p><?= tr("Chez MelGood, nous 
-     offrons du caramel
-     à tartiner de qualité
-     et fait à la main à 
-     Montréal. Notre mission 
-     est de redéfinir ce qu'est
-     un bon caramel et d’ajouter
-     de la saveur à chacun de
-     vos repas") ?></p>
+            <p><?= tr("Chez MelGood, nous offrons du caramel à tartiner de qualité et fait à la main à Montréal. Notre mission est de redéfinir ce qu'est un bon caramel et d’ajouter de la saveur à chacun de vos repas") ?></p>
         </div>
         <div class="col-6 col-m-12">
             <h2><?= tr("Notre histoire")?></h2>

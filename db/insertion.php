@@ -26,7 +26,7 @@ var_dump($_POST);
 
     <main>
         <div>
-            <h1>Insertion de commende</h1>
+            <h1>Insertion de commande</h1>
             <p><?php echo $message ?></p>
         </div>
     </main>
