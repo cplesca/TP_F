@@ -44,31 +44,23 @@ if ($en_post) {
     $validation['adress']['is_valid'] = strlen($validation['adress']['value']) >= 10;
     //email
 }
-
+var_dump($_POST);
 ?>
+<body>
+
+<div>
+    <a class = "lang" href = "contact.php?lang=<?= $lang==='fr'? 'en' : 'fr' ?> "><?= $lang==='fr'? 'EN' : 'FR' ?></a>
+</div>
+<main>
     <div>
-        <a class="lang"
-           href="commande.php?lang=<?= $lang === 'fr' ? 'en' : 'fr' ?> "><?= $lang === 'fr' ? 'EN' : 'FR' ?></a>
-        <style>
-            .lang {
-                float: right;
-                width: 115px;
-                background: white;
-                padding: 10px;
-                text-align: center;
-                border-radius: 5px;
-                color: saddlebrown;
-                font-weight: bold;
-            }
-        </style>
-    </div>
-    <main>
-        <div>
-            <h2><?= tr("Livraison") ?></h2>
-        </div>
-        <form class ="form" action="insertion.php" method="post">
+        <form action="db/insertion.php" method="post">
+            <h2><?= tr("Commende") ?></h2>
+            <fieldset>
+                <legend><?= tr( "S'il vous plaît remplir le formulaire pour vous inscrire sur notre site") ?></legend>
+                <div>
+
             <label><?= tr("Quantitée") ?> :</label>
-            <input type="number" id="quantiter" name="quantiter" value="1" min="1" max="100" required><br>
+            <input type="number" id="quantiter" name="quantiter" value="1" min="1" max="100" required>
 
             <label><?= tr("Nom Complet") ?>:</label>
             <input type="text" id="nom_complet" name="nom_complet" required
@@ -76,15 +68,15 @@ if ($en_post) {
                    value="<?= $en_post ? $validation['nom_complet']['value'] : '' ?>"/>
             <?php if ($en_post && !$validation['nom_complet']['is_valid']) {
                 echo '<span>' . $validation['nom_complet']['err_msg'] . '</span>';
-            }  ?><br>
+            }  ?>
 
             <label><?= tr("Couriel") ?> :</label>
             <input type="email" id="email_addr" name="email_addr" required
-                   class="<?= $en_post && !$validation['email']['is_valid'] ? 'invalide' : '' ?>"
-                   value="<?= $en_post ? $validation['email']['value'] : '' ?>"/>
-            <?php if ($en_post && !$validation['email']['is_valid']) {
-                echo '<span>' . $validation['email']['err_msg'] . '</span>';
-            } ?><br>
+                   class="<?= $en_post && !$validation['email_addr']['is_valid'] ? 'invalide' : '' ?>"
+                   value="<?= $en_post ? $validation['email_addr']['value'] : '' ?>"/>
+            <?php if ($en_post && !$validation['email_addr']['is_valid']) {
+                echo '<span>' . $validation['email_addr']['err_msg'] . '</span>';
+            } ?>
 
             <label><?= tr("Téléphone") ?> :</label>
             <input type="tel" id="tel" name="tel" required
@@ -92,7 +84,7 @@ if ($en_post) {
                    value="<?= $en_post ? $validation['tel']['value'] : '' ?>"/>
             <?php if ($en_post && !$validation['tel']['is_valid']) {
                 echo '<span>' . $validation['tel']['err_msg'] . '</span>';
-            } ?><br>
+            } ?>
 
             <label><?= tr("Adresse postale") ?> :</label>
             <input type="adress" id="adress" name="adress" required
@@ -100,16 +92,14 @@ if ($en_post) {
                    value="<?= $en_post ? $validation['adress']['value'] : '' ?>"/>
             <?php if ($en_post && !$validation['adress']['is_valid']) {
                 echo '<span>' . $validation['adress']['err_msg'] . '</span>';
-            } ?><br>
+            } ?>
 
             <label><?= tr("code postal") ?> :</label>
-            <input type="text" id="cod_post" name="cod_post" required><br>
-
-
-            <a href="commande.php" onclick="">
-                <button type="button"><?= tr("Commande") ?></button>
-            </a>
-
+            <input type="text" id="cod_post" name="cod_post" required>
+            <label>Code de promotion :</label>
+            </div>
+            </fieldset>
+            <input type="submit" value=<?= tr("commender") ?>>
         </form>
 
     </main>
