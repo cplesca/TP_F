@@ -96,7 +96,6 @@ var_dump($_POST);
 
             <label><?= tr("code postal") ?> :</label>
             <input type="text" id="cod_post" name="cod_post" required>
-            <label>Code de promotion :</label>
             </div>
             </fieldset>
             <input type="submit" value=<?= tr("commender") ?>>
