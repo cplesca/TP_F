@@ -95,7 +95,7 @@ if ($en_post) {
                 </div>
 
                 <div>
-                    <label for="message"><?= tr("Message") ?></label>
+                    <label for="message"><?= tr("message") ?></label>
                     <textarea type="text" name="message" id="message" placeholder=<?= tr("message") ?>
                     class="<?= $en_post && !$validation['message']['is_valid'] ? 'invalide' : '' ?>"
                               value="<?= $en_post ? $validation['message']['value'] : '' ?>">
