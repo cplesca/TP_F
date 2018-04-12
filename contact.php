@@ -60,7 +60,7 @@ if ($en_post) {
             <h2><?= tr("Contactez nous") ?></h2>
 
             <fieldset>
-                <legend><?= tr("S'il vous plaît remplir le formulaire pour vous inscrire sur notre site") ?></legend>
+                <legend><?= tr("Envoyer nous vos commentaire ou question") ?></legend>
                 <div>
                     <label for="firstname"><?= tr("Prénom") ?></label>
                     <input type="text" name="firstname" id="firstname" placeholder=<?= tr("Prénom") ?>
