@@ -47,8 +47,16 @@ header nav ul li a{
     display: block;
 }
 html{
-    color: rgb(101,75,47);
+    color: rgb(165,120,59);
 }
+/*commande*/
+label,input{
+    display:block
+}
+.form{
+    padding-left: 25%;
+}
+
 
 /*menu site map*/
 .menu-footer nav ul{

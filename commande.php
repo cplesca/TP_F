@@ -66,9 +66,9 @@ if ($en_post) {
         <div>
             <h2><?= tr("Livraison") ?></h2>
         </div>
-        <form action="insertion.php" method="post">
+        <form class ="form" action="insertion.php" method="post">
             <label><?= tr("Quantitée") ?> :</label>
-            <input type="number" id="quantiter" name="quantiter" value="1" min="1" max="100" required>
+            <input type="number" id="quantiter" name="quantiter" value="1" min="1" max="100" required><br>
 
             <label><?= tr("Nom Complet") ?>:</label>
             <input type="text" id="nom_complet" name="nom_complet" required
@@ -76,7 +76,7 @@ if ($en_post) {
                    value="<?= $en_post ? $validation['nom_complet']['value'] : '' ?>"/>
             <?php if ($en_post && !$validation['nom_complet']['is_valid']) {
                 echo '<span>' . $validation['nom_complet']['err_msg'] . '</span>';
-            }  ?>
+            }  ?><br>
 
             <label><?= tr("Couriel") ?> :</label>
             <input type="email" id="email_addr" name="email_addr" required
@@ -84,7 +84,7 @@ if ($en_post) {
                    value="<?= $en_post ? $validation['email']['value'] : '' ?>"/>
             <?php if ($en_post && !$validation['email']['is_valid']) {
                 echo '<span>' . $validation['email']['err_msg'] . '</span>';
-            } ?>
+            } ?><br>
 
             <label><?= tr("Téléphone") ?> :</label>
             <input type="tel" id="tel" name="tel" required
@@ -92,7 +92,7 @@ if ($en_post) {
                    value="<?= $en_post ? $validation['tel']['value'] : '' ?>"/>
             <?php if ($en_post && !$validation['tel']['is_valid']) {
                 echo '<span>' . $validation['tel']['err_msg'] . '</span>';
-            } ?>
+            } ?><br>
 
             <label><?= tr("Adresse postale") ?> :</label>
             <input type="adress" id="adress" name="adress" required
@@ -100,13 +100,11 @@ if ($en_post) {
                    value="<?= $en_post ? $validation['adress']['value'] : '' ?>"/>
             <?php if ($en_post && !$validation['adress']['is_valid']) {
                 echo '<span>' . $validation['adress']['err_msg'] . '</span>';
-            } ?>
+            } ?><br>
 
             <label><?= tr("code postal") ?> :</label>
-            <input type="text" id="cod_post" name="cod_post" required>
-            <label>Code de promotion :</label>
-            <input type="text" id="promo" name="promo" pattern="[A-Za-z0-9]{6}"
-                   title="Le code de promotion contient six caractères alphanumériques."/>
+            <input type="text" id="cod_post" name="cod_post" required><br>
+
 
             <a href="commande.php" onclick="">
                 <button type="button"><?= tr("Commande") ?></button>
