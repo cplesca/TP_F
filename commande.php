@@ -51,6 +51,9 @@ var_dump($_POST);
 
 <main>
     <div>
+        <a class="lang" href="commande.php?lang=<?= $lang === 'fr' ? 'en' : 'fr' ?> "><?= $lang === 'fr' ? 'EN' : 'FR' ?></a>
+    </div>
+    <div>
         <form action="db/insertion.php" method="post">
             <h2><?= tr("Commande") ?></h2>
             <fieldset>

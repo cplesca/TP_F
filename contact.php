@@ -51,6 +51,9 @@ if ($en_post) {
     <body>
 <main>
     <div>
+        <a class="lang" href="contact.php?lang=<?= $lang === 'fr' ? 'en' : 'fr' ?> "><?= $lang === 'fr' ? 'EN' : 'FR' ?></a>
+    </div>
+    <div>
         <form method="post" id="register">
             <h2><?= tr("Contactez nous") ?></h2>
 

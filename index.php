@@ -6,6 +6,9 @@ require_once 'functions/tr.php';
 require_once 'views/page_top.php';
 ?>
     <main>
+        <div>
+            <a class="lang" href="index.php?lang=<?= $lang === 'fr' ? 'en' : 'fr' ?> "><?= $lang === 'fr' ? 'EN' : 'FR' ?></a>
+        </div>
         <div  class="col-6 col-m-12">
             <img src="images/caramel1.png" alt="logo">
         </div>
