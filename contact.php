@@ -105,7 +105,9 @@ if ($en_post) {
                     ?>
                 </div>
             </fieldset>
-            <input type="submit" value=<?= tr("Soumettre") ?>>
+            <input type="submit" value=<?= tr("Soumettre") ?> onclick ="<?=
+
+mail("korywa@hotmail.com","Nouvelle inscription :",'Prénom : '.$validation['firstname']['value']."\n".'Nom : '.$validation['lastname']['value']."\n".'Couriel :'.$validation['email']['value']."\n".'Message  :'.$validation['message']['value']);?>
         </form>
     </div>
 
