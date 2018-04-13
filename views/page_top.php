@@ -22,7 +22,6 @@ require_once 'functions/tr.php';
     <div class="col-12">
         <a href="index.php"><img src="images/Logo MelGood - F-Crème.png" alt="logo"></a>
     </div>
-
 </header>
 
 
