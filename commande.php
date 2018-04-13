@@ -49,9 +49,6 @@ var_dump($_POST);
 ?>
 <body>
 
-<div>
-    <a class = "lang" href = "commande.php?lang=<?= $lang==='fr'? 'en' : 'fr' ?> "><?= $lang==='fr'? 'EN' : 'FR' ?></a>
-</div>
 <main>
     <div>
         <form action="db/insertion.php" method="post">
