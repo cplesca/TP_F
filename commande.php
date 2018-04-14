@@ -45,7 +45,6 @@ if ($en_post) {
     $validation['adress']['is_valid'] = strlen($validation['adress']['value']) >= 10;
     //email
 }
-var_dump($_POST);
 ?>
 <body>
 

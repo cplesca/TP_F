@@ -32,7 +32,7 @@
             </div>
             <!-- end RESEAUX SOCIAUX -->
         </div>
-        <div id="map" class="col-3">
+        <div id="map" class="col-m-6 col-3">
             <span><?= tr("Nos distributeurs") ?>:</span><br>
 
             <!-- google map -->
