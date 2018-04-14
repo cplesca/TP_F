@@ -19,6 +19,10 @@ iframe{
     max-width: 100%;
 
 }
+fieldset{
+    width:100% ;
+    margin: auto;
+}
 
 .button {
     max-width: 100%;
@@ -46,10 +50,10 @@ iframe{
     padding: 16px 32px;
     text-align: center;
     font-size: 16px;
-
     opacity: 0.5;
     transition: 0.3s;
-    display: inline-block;
+    display: block;
+    margin: auto;
     text-decoration: none;
     cursor: pointer;
     font-weight: bold;
@@ -367,6 +371,10 @@ footer{
 
 }
 /* end desktops */
+fieldset{
+    width : 100%;
+    margin: auto;
+}
 
 input{
     border:3px solid rgb(101,75,47);
