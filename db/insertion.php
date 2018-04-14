@@ -1,4 +1,5 @@
 <?php
+
 //ouverture dùne connexion a la bdd agenda
 $objetPdo= new PDO('mysql:host=localhost;dbname=agenda','root','');
 
@@ -17,9 +18,11 @@ $pdoStat->bindValue(':zipp_code',$_POST['cod_post'],PDO::PARAM_STR);
 $insertIsOk = $pdoStat->execute();
 
 if ($insertIsOk){
-    $message = "Votre commande a ete ajouter dans notre base de donnees avec succes";
+    $message = "Votre commande a ete ajouter dans notre base de donnees avec succes,Merci pour votre confiance.";
+
 } else {
-    $message = 'Echec de l\insertion';
+        $message = 'Echec de l\insertion';
+
 }
 
 ?>

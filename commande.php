@@ -56,7 +56,7 @@ if ($en_post) {
         <form action="db/insertion.php" method="post">
             <h2><?= tr("Commande") ?></h2>
             <fieldset>
-                <legend><?= tr( "S'il vous plaît remplir le formulaire pour vous inscrire sur notre site") ?></legend>
+                <legend><?= tr( "Veuillez choisir la quantité,puis remplir vos renseignements ") ?></legend>
                 <div>
 
             <label><?= tr("Quantitée") ?> :</label>
