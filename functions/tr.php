@@ -52,7 +52,7 @@ $traduction = array(
     =>"The email isn't valid.",
     "Notre histoire"
     =>"Our history",
-    "Tout a commencé par un soir de février, lorsque Justin demanda à sa mère la recette de caramel qu’elle faisait à noël chaque année. Il a ensuite commencé à en faire lui-même et à en vendre à ses proches, qui n’ont pas pu résister à la saveur alléchante qui a su faire danser leurs papilles gustatives. Par la suite, ayant vu le potentiel de la future entreprise, Tristan (ancien collègue de classe de Justin), avec son instinct de requin investisseur, est venu s’incruster au sein de la compagnie. Depuis, l’entreprise a constamment évolué dans le but de vous offrir son délicieux caramel qui donne des câlins à l’estomac de chaque personne qui le croise"
+    "Tout a commencé par un soir de février, lorsque Justin demanda à sa mère la recette de               caramel qu’elle faisait à noël chaque année. Il a ensuite commencé à en faire lui-même et à en                  vendre à ses proches, qui n’ont pas pu résister à la saveur alléchante qui a su faire danser                    leurs papilles gustatives. Par la suite, ayant vu le potentiel de la future entreprise, Tristan                 (ancien collègue de classe de Justin), avec son instinct de requin investisseur, est venu                       s’incruster au sein de la compagnie. Depuis, l’entreprise a constamment évolué dans le but de                   vous offrir son délicieux caramel qui donne des câlins à l’estomac de chaque personne qui le                    croise"
     =>"It all started on a February night, when Justin asked her mother about the caramel recipe she made at Christmas every year, and then started making it herself and selling it to her family, who did not could not resist the tantalizing flavor that made their taste buds dance, and after seeing the potential of the future company, Tristan (former classmate of Justin), with his instinct of investor shark, came The company has constantly evolved in order to offer you its delicious caramel that gives hugs to the stomach of each person who crosses it.",
     "Bienvenue chez MelGood"
     =>"Welcom to MelGood",
@@ -73,7 +73,7 @@ $traduction = array(
     => "Welcom to MelGood",
     "Nos distributeurs"
     => "Our distributors",
-    "Chez MelGood, nous offrons du caramel à tartiner de qualité et fait à la main à Montréal. Notre mission est de redéfinir ce qu'est un bon caramel et d’ajouter de la saveur à chacun de vos repas"
+    "Chez MelGood, nous offrons du caramel à tartiner de qualité et fait à la main à                      Montréal. Notre mission est de redéfinir ce qu'est un bon caramel et d’ajouter de la saveur à                   chacun de vos repas"
     =>"At MelGood, we
      offer caramel
      quality spreads

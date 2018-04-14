@@ -151,7 +151,7 @@ main{
     margin: 4px 2px;
     opacity: 0.5;
     transition: 0.3s;
-    display: inline-block;
+    display: block;
     text-align: center;
     cursor: pointer;
 }
@@ -376,7 +376,23 @@ footer{
     #information ul li{
         margin:5%;
     }
-
+    .lang {
+        width: 70px;
+        border-radius: 10%;
+        background-color:rgb(165,120,59);
+        border: 5px;
+        color: white;
+        padding: 16px 16px;
+        text-align: center;
+        font-size: 16px;
+        margin: -100px 2px;
+        opacity: 0.5;
+        transition: 0.3s;
+        display: block;
+        text-align: center;
+        cursor: pointer;
+    }
+    .lang:hover {opacity: 1}
 
 
 
