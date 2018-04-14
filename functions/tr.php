@@ -66,6 +66,8 @@ $traduction = array(
     =>"The address is invalid.",
     "Le message n'est pas valide."
     =>"the message is not valid",
+    "Votre commande a ete ajouter dans notre base de donnees avec succes"
+    =>"Your order was inserted with succes",
 
     "Bien venu chez MelGood"
     => "Welcom to MelGood",

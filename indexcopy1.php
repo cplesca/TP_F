@@ -20,14 +20,14 @@ require_once 'views/page_top.php';
             <h2><?= tr("Notre histoire")?></h2>
             <p><?= tr("Tout a commencé par un soir de février, lorsque Justin demanda à sa mère la recette de caramel qu’elle faisait à noël chaque année. Il a ensuite commencé à en faire lui-même et à en vendre à ses proches, qui n’ont pas pu résister à la saveur alléchante qui a su faire danser leurs papilles gustatives. Par la suite, ayant vu le potentiel de la future entreprise, Tristan (ancien collègue de classe de Justin), avec son instinct de requin investisseur, est venu s’incruster au sein de la compagnie. Depuis, l’entreprise a constamment évolué dans le but de vous offrir son délicieux caramel qui donne des câlins à l’estomac de chaque personne qui le croise") ?>.</p>
         </div>
-        <div class="fonction">
-        <div class="col-m-2 col-4 button">
-            <a href="commande.php">
+        <div class="fonction col-6">
+        <div>
+            <a href="commande.php" class="col-m-7 col-4 button">
                 <button class="button" type="button"><?= tr("Commande") ?></button>
             </a>
         </div>
-        <div class="col-m-2 col-4 button">
-            <a href="contact.php">
+        <div>
+            <a href="contact.php" class="col-m-7 col-4 button">
                 <button class="button" type="button"><?= tr("Contactez nous") ?></button>
             </a>
         </div>

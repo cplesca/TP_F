@@ -99,7 +99,7 @@ var_dump($_POST);
             <input type="text" id="cod_post" name="cod_post" required>
             </div>
             </fieldset>
-            <input type="submit" value=<?= tr("Soumettre") ?>>
+            <input class = "button_submit" type="submit" value=<?= tr("Soumettre") ?> onclick="">
         </form>
     </main>
 

@@ -17,11 +17,11 @@ $pdoStat->bindValue(':zipp_code',$_POST['cod_post'],PDO::PARAM_STR);
 $insertIsOk = $pdoStat->execute();
 
 if ($insertIsOk){
-    $message = 'Le commend a ete ajouter dans la bdd';
+    $message = "Votre commande a ete ajouter dans notre base de donnees avec succes";
 } else {
     $message = 'Echec de l\insertion';
 }
-var_dump($_POST);
+
 ?>
 
     <main>

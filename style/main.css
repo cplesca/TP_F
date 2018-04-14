@@ -17,6 +17,7 @@ img[alt="logo"]{
 }
 
 .button {
+    max-width: 100%;
     border-radius: 5%;
     background-color:rgb(165,120,59);
     border: none;
@@ -31,10 +32,27 @@ img[alt="logo"]{
     text-decoration: none;
     cursor: pointer;
     font-weight: bold;
+}
+.button_submit{
     max-width: 100%;
+    border-radius: 5%;
+    background-color:rgb(165,120,59);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 5px 5px;
+    opacity: 0.5;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .button:hover {opacity: 1}
+.button_submit:hover {opacity: 1}
 header nav ul li a{
     width:100%;
 }
@@ -100,19 +118,19 @@ main{
 /*Bouton anglais français*/
 .lang {
     float: right;
-    width: 80px;
-    border-radius: 5%;
+    width: 70px;
+    border-radius: 10%;
     background-color:rgb(165,120,59);
-    border: none;
+    border: 5px;
     color: white;
-    padding: 16px 32px;
+    padding: 16px 16px;
     text-align: center;
     font-size: 16px;
     margin: 4px 2px;
     opacity: 0.5;
     transition: 0.3s;
     display: inline-block;
-    text-decoration: none;
+    text-align: center;
     cursor: pointer;
 }
 .lang:hover {opacity: 1}
@@ -317,6 +335,7 @@ footer{
         display:-ms-flexbox;
         display:flex;
     }
+
     .datalist{display:-webkit-box;display:-ms-flexbox;display:flex;
         -webkit-box-orient:vertical;
         -webkit-box-direction:normal;
@@ -336,8 +355,22 @@ footer{
         margin:5%;
     }
 
+
 }
 /* end desktops */
 
-
+input,textarea{
+    border:3px solid rgb(101,75,47);
+    padding: 7px;
+    margin:0px;
+    width: 90% ;
+}
+input:focus{
+    box-shadow: 0 0 8px rgb(101,75,47);
+    border: 5px solid rgb(101,75,47);
+}
+textarea:focus{
+    box-shadow: 0 0 8px rgb(101,75,47);
+    border: 5px solid rgb(101,75,47);
+}
 
