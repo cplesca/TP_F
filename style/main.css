@@ -65,6 +65,7 @@ button {
     transition: 0.3s;
     display: block;
     margin: auto;
+    margin-top: 15px;
     text-decoration: none;
     cursor: pointer;
     font-weight: bold;
