@@ -28,8 +28,8 @@ $traduction = array(
     =>"Order",
     "Téléphone"
     =>"Phone",
-    "Contactez nous"
-    =>"Contact us",
+    "Contacte"
+    =>"Contact",
     "Nom&Prénom"
     =>"Last name & First name",
     "votre@couriel.com"

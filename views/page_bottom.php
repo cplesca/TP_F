@@ -9,7 +9,7 @@
                     <ul>
                         <li><a href="index.php"><?= tr("Acceuil") ?></a></li>
                         <li><a href="commande.php"><?= tr("Commande") ?></a></li>
-                        <li><a href="contact.php"><?= tr("Contactez nous") ?></a></li>
+                        <li><a href="contact.php"><?= tr("Contacte") ?></a></li>
                     </ul>
                 </nav>
             </div>
