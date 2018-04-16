@@ -22,12 +22,12 @@ require_once 'views/page_top.php';
         </div>
         <div class="fonction">
         <div>
-            <a href="commande.php" class="col-m-7 col-4 button">
+            <a href="commande.php" class="col-m-7 col-3 button">
                 <button class="button" type="button"><?= tr("Commande") ?></button>
             </a>
         </div>
         <div>
-            <a href="contact.php" class="col-m-7 col-4 button">
+            <a href="contact.php" class="col-m-7 col-3 button">
                 <button class="button" type="button"><?= tr("Contacte") ?></button>
             </a>
         </div>

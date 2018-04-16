@@ -26,9 +26,9 @@ fieldset {
     margin: auto;
 }
 
-a.button {
+button {
     width: 100%;
-    border-radius: 3%;
+    border-radius: 15px;
     background-color: rgb(165, 120, 59);
     border: none;
     color: white;
@@ -52,7 +52,7 @@ a.button {
 
 .button_submit {
     max-width: 100%;
-    border-radius: 5%;
+    border-radius: 15px;
     background-color: rgb(165, 120, 59);
     border: none;
     color: white;
@@ -311,15 +311,6 @@ footer {
         text-align: center;
     }
 
-    #header ul {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-        justify-content: space-evenly;
-
-    }
 
     header img[alt="logo"] {
         width: 200px;
@@ -348,13 +339,6 @@ footer {
         margin: 0;
     }
 
-    #social-menu ul {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-pack: distribute;
-        justify-content: space-around;
-    }
 
 }
 
@@ -418,22 +402,6 @@ footer {
 
     header nav ul li a:hover {
         background-color: rgb(101, 75, 47);
-    }
-
-    .menu-mobile {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-pack: distribute;
-        justify-content: space-around;
-    }
-
-    #social-menu ul {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-pack: distribute;
-        justify-content: space-around;
     }
 
     .company-info {

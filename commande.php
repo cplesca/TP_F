@@ -70,7 +70,7 @@ if ($en_post) {
                 echo '<span>' . $validation['nom_complet']['err_msg'] . '</span>';
             }  ?>
 
-            <label><?= tr("Couriel") ?> :</label>
+            <label><?= tr("Courriel") ?> :</label>
             <input type="email" id="email_addr" name="email_addr" required
                    class="<?= $en_post && !$validation['email_addr']['is_valid'] ? 'invalide' : '' ?>"
                    value="<?= $en_post ? $validation['email_addr']['value'] : '' ?>"/>
@@ -86,7 +86,7 @@ if ($en_post) {
                 echo '<span>' . $validation['tel']['err_msg'] . '</span>';
             } ?>
 
-            <label><?= tr("Adresse postale") ?> :</label>
+            <label><?= tr("Adresse") ?> :</label>
             <input type="adress" id="adress" name="adress" required
                    class="<?= $en_post && !$validation['adress']['is_valid'] ? 'invalide' : '' ?>"
                    value="<?= $en_post ? $validation['adress']['value'] : '' ?>"/>
@@ -94,7 +94,7 @@ if ($en_post) {
                 echo '<span>' . $validation['adress']['err_msg'] . '</span>';
             } ?>
 
-            <label><?= tr("code postal") ?> :</label>
+            <label><?= tr("Code Postal") ?> :</label>
             <input type="text" id="cod_post" name="cod_post" required>
             </div>
             </fieldset>

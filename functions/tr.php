@@ -8,17 +8,17 @@ $traduction = array(
     =>"Contact us",
     "Plan du Site"
     =>"Site Map",
-    "Nous contacter"
+    "Nous contactez"
     =>"Contact us",
     "Livraison"
     =>"Shiping",
     "Nom Complet"
     =>"Full Name",
-    "Couriel"
+    "Courriel"
     =>"E_mail",
-    "Adresse postale"
-    =>"address",
-    "code postal"
+    "Adresse"
+    =>"Address",
+    "Code Postal"
     =>"ZIP code",
     "Téléphone"
     =>"Phone",
@@ -56,8 +56,8 @@ $traduction = array(
     =>"It all started on a February night, when Justin asked her mother about the caramel recipe she made at Christmas every year, and then started making it herself and selling it to her family, who did not could not resist the tantalizing flavor that made their taste buds dance, and after seeing the potential of the future company, Tristan (former classmate of Justin), with his instinct of investor shark, came The company has constantly evolved in order to offer you its delicious caramel that gives hugs to the stomach of each person who crosses it.",
     "Bienvenue chez MelGood"
     =>"Welcom to MelGood",
-    "message"
-    =>"message",
+    "Message"
+    =>"Message",
     "Envoyer nous vos commentaire ou question"
     =>"Send us your coments or question",
     "Le nom complet n'est pas valide."
@@ -70,7 +70,6 @@ $traduction = array(
     =>"Please choose the quantity and fill in your information",
     "Votre commande a ete ajouter dans notre base de donnees avec succes,Merci pour votre confiance."
     =>"Your order was added in our data base with succses,Thanq you for your trust. ",
-
     "Bien venu chez MelGood"
     => "Welcom to MelGood",
     "Nos distributeurs"

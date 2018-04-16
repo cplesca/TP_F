@@ -80,8 +80,8 @@ if ($en_post) {
                     } ?>
                 </div>
                 <div>
-                    <label for="email"><?= tr("Couriel") ?></label>
-                    <input type="text" name="email" id="email" placeholder=<?= tr("Couriel") ?>
+                    <label for="email"><?= tr("Courriel") ?></label>
+                    <input type="text" name="email" id="email" placeholder=<?= tr("Courriel") ?>
                     class="<?= $en_post && !$validation['email']['is_valid'] ? 'invalide' : '' ?>"
                            value="<?= $en_post ? $validation['email']['value'] : '' ?>"
                     />
@@ -93,9 +93,9 @@ if ($en_post) {
                 </div>
 
                 <div>
-                    <label for="message"><?= tr("message") ?></label>
+                    <label for="message"><?= tr("Message") ?></label>
 
-                    <textarea type="text" name="message" id="message" rows="10" placeholder=<?= tr("message") ?>
+                    <textarea type="text" name="message" id="message" rows="10" placeholder="Message"
                     class="<?= $en_post && !$validation['message']['is_valid'] ? 'invalide' : '' ?>"
                               value="<?= $en_post ? $validation['message']['value'] : '' ?>">
                     </textarea>
