@@ -28,7 +28,7 @@ require_once 'views/page_top.php';
         </div>
         <div>
             <a href="contact.php" class="col-m-7 col-4 button">
-                <button class="button" type="button"><?= tr("Contactez nous") ?></button>
+                <button class="button" type="button"><?= tr("Contacte") ?></button>
             </a>
         </div>
         </div>

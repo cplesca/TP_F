@@ -19,13 +19,11 @@
             <div id="social-menu">
                 <ul>
                     <li>
-                        <a href ="http://www.facebook.com">
-                            <a href="https://www.facebook.com/MelGoodcaramel/?ref=br_rs"><img src="images/fb.png" alt="Facebook"/></a>
+                            <a href="https://www.facebook.com/MelGoodcaramel/?ref=br_rs"><img src="images/002-facebook.png" alt="Facebook"/></a>
                         </a>
                     </li>
                     <li>
-                        <a href="http://www.instagram.com">
-                            <a href="https://www.instagram.com/melgood_caramel/"><img src="images/instagram.png" alt="instagram"/></a>
+                            <a href="https://www.instagram.com/melgood_caramel/"><img src="images/001-instagram.png" alt="instagram"/></a>
                         </a>
                     </li>
                 </ul>
