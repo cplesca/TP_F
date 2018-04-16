@@ -15,7 +15,7 @@
             </div>
         </div>
         <!-- start RESEAUX SOCIAUX -->
-        <div class="reseau-soc col-3">
+        <div class="reseau-soc col-m-6 col-3">
             <div id="social-menu">
                 <ul>
                     <li>
