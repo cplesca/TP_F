@@ -14,6 +14,7 @@ $pdoStat->bindValue(':phone',$_POST['tel'],PDO::PARAM_STR);
 $pdoStat->bindValue(':address',$_POST['adress'],PDO::PARAM_STR);
 $pdoStat->bindValue(':zipp_code',$_POST['cod_post'],PDO::PARAM_STR);
 
+
 //executionde la requete prepare
 $insertIsOk = $pdoStat->execute();
 
